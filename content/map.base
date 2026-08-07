@@ -11,5 +11,3 @@ views:
     maxZoom: 10
     defaultZoom: -30
     height: 800
-  - type: table
-    name: View

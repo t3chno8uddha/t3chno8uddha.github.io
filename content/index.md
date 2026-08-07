@@ -1,1 +1,0 @@
-/home/technobuddha/Documents/Asphodian Tales/index.md

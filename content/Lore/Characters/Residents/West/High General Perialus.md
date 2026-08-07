@@ -1,0 +1,15 @@
+---
+Full_Name: High General Perialus
+Type: NPC
+Heritage:
+Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Mansfield Manor]]"
+Allegiance:
+Opposition:
+Family:
+Status: Dead
+First_Seen: 1413
+Tags:
+---
+Ruler of Mansfield Manor in 1413, before his undoing and the freeing of all magical prisoners held inside the stronghold's walls.
+![[High_General_Perialus.png]]

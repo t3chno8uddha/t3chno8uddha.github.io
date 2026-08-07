@@ -1,0 +1,19 @@
+---
+Full_Name: Temple of Asphodel
+Type: Shrine
+Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Allegiance:
+  - "[[Crucito]]"
+Opposition:
+Populace:
+Status: Standing
+First_Seen: 1413
+Tags:
+marker:
+  - coordinates: 2778, 2412
+    colour: "#554e3f"
+---
+A hall of statues, depicting the Gods and their war - Crucito's shrine to hismself and his siblings, for those who wish to pray.
+
+Located north of [[Mansfield Manor]].
+![[Temple_of_Asphodel.png]]

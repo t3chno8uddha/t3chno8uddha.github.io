@@ -1,0 +1,2 @@
+The party had made its way north to Wassonia. Alastor went south to reconvene with Lutrios.
+During a snowstorm they met Brant, a Fae Survivor, who ventured with them. They endured the storm in the Wassonian monastery, and found a tome written in Godspeak, which Rafael and his army were also after. Rafael, being Maxill's master, ordered him to attack his allies, and in this battle, both parties emerged halfway victorious, with a torn half of the tome going to each victor.

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asphodia — Stopwatches</title>
+<style>
+
+:root{
+  --ink:#e9e9e9;
+  --ink-dim:#9a9a9a;
+  --ink-faint:#6a6a6a;
+  --line:#3a3a3a;
+  --line-soft:#2a2a2a;
+  --panel-3:#101010;
+  --bg:#050505;
+  --knob:#f2f2f2;
+  --axis:#4a4a4a;
+  --accent:#e6e6e6;
+
+  /* set by layout(): drives every internal size */
+  --dial:8rem;
+  --unit:1rem;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+
+html,body{
+  height:100%;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Cinzel',serif;
+  overflow:hidden;
+}
+
+#board{
+  height:100vh;
+  position:relative;
+  background:linear-gradient(135deg,#101010 0%,#070707 60%,#0d0d0d 100%);
+  border:1px solid var(--line);
+  padding:20px 20px 58px;
+  display:flex;flex-direction:column;
+}
+
+.corner{position:fixed;width:14px;height:14px;z-index:6;border-color:var(--line);pointer-events:none;}
+.corner.tl{top:0;left:0;border-top:1px solid;border-left:1px solid;}
+.corner.tr{top:0;right:0;border-top:1px solid;border-right:1px solid;}
+.corner.bl{bottom:0;left:0;border-bottom:1px solid;border-left:1px solid;}
+.corner.br{bottom:0;right:0;border-bottom:1px solid;border-right:1px solid;}
+
+/* ================= GRID ================= */
+#gridwrap{flex:1;min-height:0;overflow:hidden;}
+#gridwrap.scroll{overflow-y:auto;}
+#gridwrap::-webkit-scrollbar{width:6px;}
+#gridwrap::-webkit-scrollbar-track{background:rgba(0,0,0,.4);}
+#gridwrap::-webkit-scrollbar-thumb{background:var(--line-soft);}
+#gridwrap::-webkit-scrollbar-thumb:hover{background:var(--line);}
+
+#grid{
+  display:grid;
+  gap:14px;
+  height:100%;
+  align-content:stretch;
+}
+#gridwrap.scroll #grid{height:auto;align-content:start;}
+
+#empty{
+  height:100%;display:none;align-items:center;justify-content:center;
+  color:var(--ink-faint);font-size:.72rem;letter-spacing:3px;text-transform:uppercase;
+  text-align:center;line-height:2.2;
+}
+#empty.show{display:flex;}
+
+/* ================= CLOCK CARD ================= */
+.clock{
+  position:relative;
+  border:1px solid var(--line-soft);border-left:2px solid var(--line);
+  background:rgba(8,8,8,.72);
+  padding:calc(var(--unit)*.9) calc(var(--unit)*.8);
+  display:flex;flex-direction:column;align-items:center;justify-content:flex-start;
+  gap:calc(var(--unit)*.4);
+  min-height:0;
+  transition:background .15s ease, border-color .15s ease;
+  cursor:pointer;user-select:none;
+}
+.dialwrap{
+  flex:1 1 auto;min-height:0;width:100%;
+  display:flex;align-items:center;justify-content:center;
+}
+.clock:hover{background:rgba(14,14,14,.85);}
+.clock.done{
+  border-color:var(--ink-dim);
+  background:rgba(20,20,20,.9);
+  box-shadow:inset 0 0 0 1px rgba(230,230,230,.15);
+}
+
+.clock .cname{
+  width:100%;background:transparent;border:none;
+  border-bottom:1px solid transparent;
+  color:var(--ink);font-family:'Cinzel',serif;
+  font-size:calc(var(--unit)*.72 * var(--nscale,1));
+  font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;
+  text-align:center;outline:none;
+  padding:2px calc(var(--unit)*.18) calc(var(--unit)*.22);
+  cursor:text;flex:0 0 auto;
+  text-overflow:ellipsis;
+}
+.clock .cname::placeholder{color:var(--ink-faint);letter-spacing:.18em;}
+.clock .cname:hover{border-bottom-color:var(--line-soft);}
+.clock .cname:focus{border-bottom-color:var(--line);color:var(--ink);}
+
+.clock svg{display:block;width:var(--dial);height:var(--dial);flex:0 0 auto;}
+/* opaque, not alpha: the fill overlay sits on top of the empty base, so any
+   transparency would let the two stack and read brighter mid-animation than
+   a settled wedge. these are the alpha values pre-composited against the
+   card background, so overlap is invisible. */
+/* layer 1 (.wbase) is the only layer that carries a fill colour. layer 3
+   (.wline) is outline-only — if it ever painted a fill it would sit opaque
+   on top of the animating overlay and hide it, which is exactly what broke
+   the fill-up animation. */
+.clock svg .wbase{stroke:none;}
+.clock svg .wbase.seg-empty{fill:#0f0f0f;}
+.clock svg .wbase.seg-full{fill:#5b5b5b;}
+.clock svg .wfill{fill:#5b5b5b;stroke:none;}
+.clock svg .wline{fill:none;stroke-width:1;}
+.clock svg .wline.seg-empty{stroke:var(--line);}
+.clock svg .wline.seg-full{stroke:#787878;}
+/* only the base brightens on hover; the overlay follows so a partially-filled
+   wedge never shows one layer hovered and the other not */
+.clock:hover svg .wbase.seg-empty{fill:#1f1f1f;}
+.clock:hover svg .wfill{fill:#5e5e5e;}
+/* only wedges that are actually filled pulse — .wfill alone would match the
+   empty overlays too, lighting up the whole dial */
+.clock.done svg .wfill.on{animation:pulsefill 1.8s ease-in-out infinite;}
+.clock.done svg .wline.seg-full{animation:pulseline 1.8s ease-in-out infinite;}
+@keyframes pulsefill{
+  0%,100%{fill:#5b5b5b;}
+  50%{fill:#ebebeb;}
+}
+@keyframes pulseline{
+  0%,100%{stroke:#787878;}
+  50%{stroke:#e6e6e6;}
+}
+
+.segfield{
+  width:calc(var(--unit)*2.6);
+  background:transparent;border:1px solid transparent;
+  color:var(--ink-faint);
+  font-family:'Cinzel',serif;font-size:calc(var(--unit)*.6);
+  letter-spacing:.08em;text-align:center;
+  padding:2px 0;outline:none;cursor:text;flex:0 0 auto;
+  transition:color .15s ease, border-color .15s ease;
+}
+.clock:hover .segfield{color:var(--ink-dim);border-color:var(--line-soft);}
+.segfield:focus{color:var(--ink);border-color:var(--line);background:rgba(0,0,0,.5);}
+.segfield::-webkit-inner-spin-button,
+.segfield::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0;}
+.segfield{-moz-appearance:textfield;}
+
+.clock .delbtn{
+  position:absolute;top:6px;right:8px;
+  font-size:calc(var(--unit)*.6);color:var(--ink-faint);
+  cursor:pointer;opacity:0;transition:opacity .15s ease;
+  line-height:1;padding:3px 4px;
+}
+.clock:hover .delbtn{opacity:1;}
+.clock .delbtn:hover{color:var(--ink);}
+
+/* ================= ADD BUTTON ================= */
+#addbtn{
+  position:fixed;bottom:10px;left:50%;transform:translateX(-50%);
+  z-index:5;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Cinzel',serif;
+  font-size:26px;line-height:1;font-weight:300;
+  color:var(--ink-faint);
+  padding:4px 12px;
+  cursor:pointer;user-select:none;
+  transition:color .15s ease;
+}
+#addbtn:hover{color:var(--ink);}
+</style>
+</head>
+<body>
+  <div id="board">
+    <span class="corner tl"></span><span class="corner tr"></span>
+    <span class="corner bl"></span><span class="corner br"></span>
+
+    <div id="gridwrap">
+      <div id="empty">No stopwatches<br>Shift + Enter to add</div>
+      <div id="grid"></div>
+    </div>
+
+    <div id="addbtn" title="Add a stopwatch (Shift+Enter)">+</div>
+  </div>
+
+<script>
+/* ---------- IndexedDB ---------- */
+const DB_NAME="asphodia_stopwatches";
+const DB_VERSION=1;
+let db=null;
+
+function openDB(){
+  return new Promise((resolve,reject)=>{
+    const req=indexedDB.open(DB_NAME,DB_VERSION);
+    req.onupgradeneeded=e=>{
+      const d=e.target.result;
+      if(!d.objectStoreNames.contains("clocks")) d.createObjectStore("clocks",{keyPath:"id"});
+    };
+    req.onsuccess=e=>{db=e.target.result;resolve(db);};
+    req.onerror=e=>reject(e.target.error);
+  });
+}
+function idbPut(val){
+  return new Promise(resolve=>{
+    if(!db) return resolve();
+    const tx=db.transaction("clocks","readwrite");
+    tx.objectStore("clocks").put(JSON.parse(JSON.stringify(val)));
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>resolve();
+  });
+}
+function idbDelete(id){
+  return new Promise(resolve=>{
+    if(!db) return resolve();
+    const tx=db.transaction("clocks","readwrite");
+    tx.objectStore("clocks").delete(id);
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>resolve();
+  });
+}
+function idbGetAll(){
+  return new Promise(resolve=>{
+    if(!db) return resolve([]);
+    const tx=db.transaction("clocks","readonly");
+    const req=tx.objectStore("clocks").getAll();
+    req.onsuccess=()=>resolve(req.result||[]);
+    req.onerror=()=>resolve([]);
+  });
+}
+
+/* ---------- state ---------- */
+let clocks=[];
+let nextOrder=0;
+let hoveredId=null;
+const grid=document.getElementById("grid");
+const gridwrap=document.getElementById("gridwrap");
+const emptyEl=document.getElementById("empty");
+
+const MIN_SEGS=1, MAX_SEGS=24, DEFAULT_SEGS=1;
+const GAP=14;
+const MIN_DIAL=110;   // below this we stop shrinking and start scrolling
+const MAX_DIAL=420;   // a single clock shouldn't become absurd
+
+function newId(){ return Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
+function sortedClocks(){ return [...clocks].sort((a,b)=>a.order-b.order); }
+
+/* ---------- geometry ---------- */
+const R=44, CX=52, CY=52;
+
+// a wedge at full radius R, but only swept from its start angle (the edge
+// shared with the previous segment) through `frac` of its own angular span.
+// frac===0 means nothing visible; frac===1 means the full wedge. animating
+// frac from 0 up to 1 fills the segment from its leading edge (last filled
+// neighbour) toward its trailing edge (next segment); animating back down
+// to 0 retracts it the same way, so filling/emptying always reads as motion
+// chasing around the ring rather than each wedge blooming in place.
+function arcPath(i,total,radius,frac){
+  const rad=(radius===undefined)?R:radius;
+  const f=(frac===undefined)?1:frac;
+  if(rad<=0||f<=0){
+    // nothing to draw yet — collapse to the center point
+    return "M "+CX+" "+CY+" Z";
+  }
+  const a0=(i/total)*Math.PI*2 - Math.PI/2;
+  if(total===1&&f>=1){
+    // a full single-segment ring can't be drawn as one arc back to its own
+    // start point, so nudge the endpoint a hair short, as before
+    return "M "+CX+" "+(CY-rad)+" A "+rad+" "+rad+" 0 1 1 "+(CX-0.01).toFixed(3)+" "+(CY-rad)+" Z";
+  }
+  const fullA1=((i+1)/total)*Math.PI*2 - Math.PI/2;
+  const a1=a0+f*(fullA1-a0);
+  const x0=CX+Math.cos(a0)*rad, y0=CY+Math.sin(a0)*rad;
+  const x1=CX+Math.cos(a1)*rad, y1=CY+Math.sin(a1)*rad;
+  const large=(a1-a0)>Math.PI?1:0;
+  return "M "+CX+" "+CY+" L "+x0.toFixed(2)+" "+y0.toFixed(2)+
+         " A "+rad+" "+rad+" 0 "+large+" 1 "+x1.toFixed(2)+" "+y1.toFixed(2)+" Z";
+}
+
+/* ---------- layout: pick the column count that maximises dial size ---------- */
+function applySizing(cols,dial){
+  grid.style.gridTemplateColumns="repeat("+cols+",1fr)";
+  document.documentElement.style.setProperty("--dial",dial.toFixed(1)+"px");
+  const unit=Math.max(11,Math.min(30,dial*0.135));
+  document.documentElement.style.setProperty("--unit",unit.toFixed(2)+"px");
+}
+
+function layout(){
+  const n=clocks.length;
+  emptyEl.classList.toggle("show",n===0);
+  if(n===0){ grid.style.gridTemplateColumns="1fr"; return; }
+
+  const W=gridwrap.clientWidth;
+  const H=gridwrap.clientHeight;
+  if(W<=0||H<=0) return;
+
+  // card chrome that isn't the dial: name + segment field + padding + gaps
+  // expressed as a share of the dial so it scales with it
+  const CHROME=0.62;
+
+  let best={cols:1,dial:0,rows:1,score:-1};
+  for(let cols=1;cols<=n;cols++){
+    const rows=Math.ceil(n/cols);
+    const cellW=(W-GAP*(cols-1))/cols;
+    const cellH=(H-GAP*(rows-1))/rows;
+    if(cellW<=0||cellH<=0) continue;
+    // dial limited by width (with side padding) and by height (dial + chrome)
+    const byW=cellW*0.78;
+    const byH=cellH/(1+CHROME);
+    const dial=Math.min(byW,byH);
+    // mild penalty for grids that leave a ragged last row, so 9 prefers 3x3 over 5x2
+    const holes=cols*rows-n;
+    const score=dial*(1-Math.min(holes,cols)/(cols*4));
+    if(score>best.score) best={cols,dial,rows,score};
+  }
+
+  const scroll = best.dial < MIN_DIAL;
+  gridwrap.classList.toggle("scroll",scroll);
+
+  let cols=best.cols, dial=best.dial;
+  if(scroll){
+    // fit as many MIN_DIAL-ish columns as possible, then scroll vertically —
+    // but never let the dial exceed what that column width can actually hold,
+    // so a narrow window shrinks the dial instead of cropping it
+    cols=Math.max(1,Math.floor((W+GAP)/(MIN_DIAL/0.78+GAP)));
+    const cellW=(W-GAP*(cols-1))/cols;
+    dial=Math.min(MIN_DIAL,cellW*0.78);
+  }
+  dial=Math.min(dial,MAX_DIAL);
+
+  applySizing(cols,dial);
+
+  // CHROME above is an estimate — real font metrics, line-height and padding
+  // rounding can make the actual card taller than predicted. Rather than trust
+  // the estimate, measure what actually rendered and shrink further if it
+  // doesn't fit, so the grid degrades by scaling down rather than clipping.
+  if(!scroll){
+    for(let i=0;i<8;i++){
+      const overflowY=grid.scrollHeight-gridwrap.clientHeight;
+      const overflowX=grid.scrollWidth-gridwrap.clientWidth;
+      if(overflowY<=0.5&&overflowX<=0.5) break;
+      const ratioY=overflowY>0.5?gridwrap.clientHeight/grid.scrollHeight:1;
+      const ratioX=overflowX>0.5?gridwrap.clientWidth/grid.scrollWidth:1;
+      dial=dial*Math.min(ratioY,ratioX)*0.985;
+      if(dial<40){
+        // too cramped to keep shrinking usefully — fall back to scrolling
+        gridwrap.classList.add("scroll");
+        break;
+      }
+      applySizing(cols,dial);
+    }
+  }
+
+  // titles depend on the final width, so refit them last
+  grid.querySelectorAll(".cname").forEach(fitName);
+}
+window.addEventListener("resize",layout);
+
+/* ---------- render ---------- */
+function render(){
+  grid.innerHTML="";
+  sortedClocks().forEach(c=>grid.appendChild(buildCard(c)));
+  layout();
+}
+
+// shrink the title until it fits its field; never below 55% of base
+function fitName(input){
+  if(!input) return;
+  input.style.setProperty("--nscale",1);
+  if(input.scrollWidth<=input.clientWidth) return;
+  let lo=0.55, hi=1;
+  for(let i=0;i<8;i++){
+    const mid=(lo+hi)/2;
+    input.style.setProperty("--nscale",mid);
+    if(input.scrollWidth>input.clientWidth) hi=mid; else lo=mid;
+  }
+  input.style.setProperty("--nscale",lo);
+}
+
+function isExempt(target){
+  return !!(target.closest && target.closest(".cname, .segfield, .delbtn"));
+}
+
+function buildCard(c){
+  const card=document.createElement("div");
+  card.className="clock"+(c.filled>=c.segs?" done":"");
+  card.dataset.id=c.id;
+  card.title="Click to advance \u00b7 Right-click to step back \u00b7 Shift+scroll to resize";
+
+  const del=document.createElement("span");
+  del.className="delbtn";del.textContent="\u2715";del.title="Delete";
+  del.addEventListener("click",e=>{e.stopPropagation();removeClock(c.id);});
+  card.appendChild(del);
+
+  const name=document.createElement("input");
+  name.className="cname";name.type="text";name.value=c.name||"";
+  name.placeholder="\u2014";name.spellcheck=false;
+  name.addEventListener("input",()=>{c.name=name.value;idbPut(c);fitName(name);});
+  name.addEventListener("keydown",e=>{
+    if(e.key==="Enter"&&!e.shiftKey){ e.preventDefault(); name.blur(); }
+  });
+  card.appendChild(name);
+
+  const dialwrap=document.createElement("div");
+  dialwrap.className="dialwrap";
+  dialwrap.appendChild(buildDial(c));
+  card.appendChild(dialwrap);
+
+  const field=document.createElement("input");
+  field.className="segfield";
+  field.type="number";field.value=c.segs;field.min=MIN_SEGS;field.max=MAX_SEGS;
+  field.title="Segments";
+  field.addEventListener("change",()=>{
+    const n=parseInt(field.value,10);
+    if(Number.isFinite(n)) setSegs(c,n); else field.value=c.segs;
+  });
+  field.addEventListener("keydown",e=>{
+    if(e.key==="Enter"&&!e.shiftKey){ e.preventDefault(); field.blur(); }
+  });
+  card.appendChild(field);
+
+  card.addEventListener("click",e=>{
+    if(isExempt(e.target)) return;
+    setFilled(c,c.filled+1);
+  });
+  card.addEventListener("contextmenu",e=>{
+    if(isExempt(e.target)) return;
+    e.preventDefault();
+    setFilled(c,c.filled-1);
+  });
+  card.addEventListener("wheel",e=>{
+    if(!e.shiftKey) return;
+    e.preventDefault();
+    const d=(Math.abs(e.deltaY)>=Math.abs(e.deltaX))?e.deltaY:e.deltaX;
+    setSegs(c,c.segs+(d<0?1:-1));
+  },{passive:false});
+
+  card.addEventListener("mouseenter",()=>{hoveredId=c.id;});
+  card.addEventListener("mouseleave",()=>{ if(hoveredId===c.id) hoveredId=null; });
+
+  return card;
+}
+
+function buildDial(c){
+  const NS="http://www.w3.org/2000/svg";
+  const svg=document.createElementNS(NS,"svg");
+  svg.setAttribute("viewBox","0 0 "+(CX*2)+" "+(CY*2));
+
+  const paths=[];
+  for(let i=0;i<c.segs;i++) paths.push(arcPath(i,c.segs));
+
+  // layer 1: permanent empty bases, always full size, never animated.
+  // whatever the fill overlay above doesn't cover shows this — so an
+  // uncovered area reads as a proper dim wedge and picks up hover styling,
+  // instead of being a transparent hole in the drawing.
+  for(let i=0;i<c.segs;i++){
+    const p=document.createElementNS(NS,"path");
+    p.setAttribute("d",paths[i]);
+    p.setAttribute("class","wbase seg-empty");
+    svg.appendChild(p);
+  }
+  // layer 2: fill overlays — only this layer's geometry animates. at rest a
+  // full wedge is a solid arc and an empty one renders nothing; mid-animation
+  // it's either a closing annulus (filling) or a shrinking wedge (emptying).
+  // the `on` class marks which wedges are actually filled, so styling that
+  // should only affect filled wedges (the completion pulse) can target them.
+  for(let i=0;i<c.segs;i++){
+    const full=i<c.filled;
+    const p=document.createElementNS(NS,"path");
+    p.setAttribute("d",arcPath(i,c.segs,R,full?1:0));
+    p.setAttribute("class","wfill"+(full?" on":""));
+    p._wfP=full?1:0;                   // progress = how filled the wedge is
+    p._wfMode=full?"fill":"empty";
+    svg.appendChild(p);
+  }
+  // layer 3: outlines, drawn over everything so boundaries stay crisp
+  for(let i=0;i<c.segs;i++){
+    const p=document.createElementNS(NS,"path");
+    p.setAttribute("d",paths[i]);
+    p.setAttribute("class","wline "+(i<c.filled?"seg-full":"seg-empty"));
+    svg.appendChild(p);
+  }
+  return svg;
+}
+
+// animates a fill overlay. `path._wfP` is a single progress value, 0..1, that
+// always means "how filled is this wedge" — not "how far into the current
+// mode's animation" — so both directions read off the same number and a
+// reversal mid-flight just continues smoothly from wherever it currently is:
+//   "fill"  - sweep progress up toward 1 (leading edge -> trailing edge)
+//   "empty" - sweep progress back down toward 0 (retracts the same way)
+function animateWedge(path,i,total,mode,onDone,onFrame){
+  const fromP=(path._wfP!==undefined)?path._wfP:0;
+  const target=mode==="empty"?0:1;
+  const myGen=(path._wfGen=(path._wfGen||0)+1);
+  const start=performance.now();
+  const DUR=320;
+  function step(now){
+    if(path._wfGen!==myGen) return; // a newer click superseded this animation
+    const t=Math.min(1,(now-start)/DUR);
+    // ease-in-out sine: moves off zero immediately, so the first frames are
+    // visible rather than sitting at the start value
+    const e=0.5-Math.cos(Math.PI*t)/2;
+    const prog=fromP+(target-fromP)*e;
+    path._wfP=prog;
+    path._wfMode=mode;
+    path.setAttribute("d", arcPath(i,total,R,prog));
+    if(onFrame) onFrame(e);
+    if(t<1){ requestAnimationFrame(step); }
+    else if(onDone){ onDone(); }
+  }
+  requestAnimationFrame(step);
+}
+
+// linear interpolation between two "#rrggbb" colours, t in 0..1
+function lerpColor(hexA,hexB,t){
+  const a=parseInt(hexA.slice(1),16), b=parseInt(hexB.slice(1),16);
+  const ar=(a>>16)&255, ag=(a>>8)&255, ab=a&255;
+  const br=(b>>16)&255, bg=(b>>8)&255, bb=b&255;
+  const r=Math.round(ar+(br-ar)*t), g=Math.round(ag+(bg-ag)*t), bl=Math.round(ab+(bb-ab)*t);
+  return "rgb("+r+","+g+","+bl+")";
+}
+
+// getComputedStyle hands back "rgb(r, g, b)", not hex, so anything sampled off
+// a live element needs a parser that accepts both forms.
+function parseColor(s){
+  if(!s) return null;
+  s=s.trim();
+  if(s[0]==="#"){
+    const v=parseInt(s.slice(1),16);
+    return [(v>>16)&255,(v>>8)&255,v&255];
+  }
+  const m=s.match(/-?\d+(\.\d+)?/g);
+  if(!m||m.length<3) return null;
+  return [Math.round(+m[0]),Math.round(+m[1]),Math.round(+m[2])];
+}
+
+function lerpColorAny(from,to,t){
+  const a=parseColor(from), b=parseColor(to);
+  if(!a||!b) return to;
+  const r=Math.round(a[0]+(b[0]-a[0])*t);
+  const g=Math.round(a[1]+(b[1]-a[1])*t);
+  const bl=Math.round(a[2]+(b[2]-a[2])*t);
+  return "rgb("+r+","+g+","+bl+")";
+}
+
+// wedges that keep their state across a pulse-ending change still hold an
+// inline colour sampled mid-pulse. ramp them back to rest on the same clock as
+// the animating wedges, then hand control back to the stylesheet.
+function fadeOutHeld(path,line,fillFrom,strokeFrom,isFull){
+  const restFill="#5b5b5b";
+  const restStroke=isFull?"#787878":"#3a3a3a";
+  const gen=(path._wfFadeGen=(path._wfFadeGen||0)+1);
+  const start=performance.now();
+  const DUR=480;
+  function step(now){
+    if(path._wfFadeGen!==gen) return;
+    const t=Math.min(1,(now-start)/DUR);
+    const e=0.5-Math.cos(Math.PI*t)/2;
+    if(fillFrom) path.style.fill=lerpColorAny(fillFrom,restFill,e);
+    if(line&&strokeFrom) line.style.stroke=lerpColorAny(strokeFrom,restStroke,e);
+    if(t<1) requestAnimationFrame(step);
+    else{ path.style.fill=""; if(line) line.style.stroke=""; }
+  }
+  requestAnimationFrame(step);
+}
+
+function findCard(id){
+  return grid.querySelector('.clock[data-id="'+id+'"]');
+}
+
+/* ---------- wedge animation chain ----------
+   a burst of clicks changes one wedge each, but if every change kicked off
+   its own animateWedge immediately, two clicks in quick succession would
+   show two wedges filling side by side at once. instead each clock keeps a
+   queue: only one wedge animates at a time, so a run of clicks reads as one
+   continuous sweep chasing around the ring. redirecting the wedge that's
+   already active (e.g. right-clicking before its fill finishes) happens at
+   once rather than waiting in line, since that's the same motion continuing,
+   not a new one starting. */
+const chainState=new Map(); // clock id -> {busyIndex, queue:[{index,run}]}
+
+function getChainState(id){
+  let st=chainState.get(id);
+  if(!st){ st={busyIndex:null,queue:[]}; chainState.set(id,st); }
+  return st;
+}
+
+function startChainJob(st,index,run){
+  st.busyIndex=index;
+  run(()=>{
+    if(st.busyIndex!==index) return; // this run was superseded before finishing
+    st.busyIndex=null;
+    const job=st.queue.shift();
+    if(job) startChainJob(st,job.index,job.run);
+  });
+}
+
+// runs run(advance) for wedge `index` of clock `id`; `run` must call `advance`
+// exactly when its animation actually settles.
+function chainAnimate(id,index,run){
+  const st=getChainState(id);
+  if(st.busyIndex===index||st.busyIndex===null) startChainJob(st,index,run);
+  else st.queue.push({index,run});
+}
+
+// tracks in-flight wedge animations per clock, spanning however many separate
+// setFilled() calls they were kicked off by. a burst of clicks each queue up
+// their own wedge, but they all belong to the same clock reaching its final
+// state together — so "done" must wait for every one of them to actually
+// finish, not just the first wedge in the chain. judging completion per click
+// instead would flip a clock to `done` (and start its pulse) as soon as the
+// very first queued wedge lands, while the rest are still mid-sweep — which
+// is exactly what made the pulse look staggered instead of synchronized.
+const pendingAnim=new Map(); // clock id -> count of wedges still animating
+
+function bumpPending(id,delta){
+  const n=(pendingAnim.get(id)||0)+delta;
+  pendingAnim.set(id,n);
+  return n;
+}
+
+/* ---------- mutations ---------- */
+function setFilled(c,v){
+  const nv=Math.max(0,Math.min(c.segs,v));
+  if(nv===c.filled) return;
+  const oldFilled=c.filled;
+  c.filled=nv;
+  idbPut(c);
+  const card=findCard(c.id);
+  if(!card){ render(); return; }
+
+  const fillPaths=card.querySelectorAll(".dialwrap svg .wfill");
+  const linePaths=card.querySelectorAll(".dialwrap svg .wline");
+  const total=fillPaths.length;
+
+  // a css `animation` can't be interrupted smoothly — the frame the rule stops
+  // matching, the element snaps to its underlying value. so if this change is
+  // going to end the completion pulse, sample where the pulse actually is right
+  // now, pin that as an inline style, and let the per-wedge lerp below ramp
+  // down from it. sampling must happen while `done` is still on the card.
+  const wasDone=card.classList.contains("done");
+  const willBeDone=c.filled>=c.segs;
+  const pulseExit=(wasDone&&!willBeDone);
+  const heldFill=[], heldStroke=[];
+  if(pulseExit){
+    fillPaths.forEach((p,i)=>{
+      heldFill[i]=getComputedStyle(p).fill;
+      const line=linePaths[i];
+      if(line) heldStroke[i]=getComputedStyle(line).stroke;
+    });
+    // drop `done` immediately so the keyframes stop, then re-pin the sampled
+    // colours inline so nothing visibly jumps on this frame
+    card.classList.remove("done");
+    fillPaths.forEach((p,i)=>{
+      p.style.fill=heldFill[i];
+      const line=linePaths[i];
+      if(line&&heldStroke[i]) line.style.stroke=heldStroke[i];
+    });
+  }
+
+  let anyStarted=false;
+
+  fillPaths.forEach((p,i)=>{
+    const wasFull=i<oldFilled, isFull=i<c.filled;
+    // wedges that aren't changing state still have to shed a held pulse colour,
+    // otherwise the ones that stay filled keep the frozen inline fill forever
+    if(wasFull===isFull){
+      if(pulseExit&&wasFull) fadeOutHeld(p,linePaths[i],heldFill[i],heldStroke[i],isFull);
+      return;
+    }
+    anyStarted=true;
+    bumpPending(c.id,1);
+    const line=linePaths[i];
+    // both directions sweep the same wedge angularly, just toward opposite
+    // ends (0 = leading edge only, 1 = full span). p._wfP always holds the
+    // wedge's true current fill fraction, so reversing mid-flight needs no
+    // special-casing — animateWedge just continues from wherever it is.
+    const mode=isFull?"fill":"empty";
+    // clear any stroke left frozen by a superseded animation that never
+    // reached its onDone
+    if(line&&!pulseExit) line.style.stroke="";
+    const fillFrom=pulseExit?heldFill[i]:null;
+    const strokeFrom=pulseExit?heldStroke[i]:null;
+    chainAnimate(c.id,i,advance=>{
+      animateWedge(p,i,total,mode,
+        ()=>{
+          // mark/unmark actually-filled only once the motion completes, so a
+          // wedge mid-drain still counts as filled for styling purposes
+          p.setAttribute("class","wfill"+(isFull?" on":""));
+          p.style.fill="";
+          if(line){ line.setAttribute("class","wline "+(isFull?"seg-full":"seg-empty")); line.style.stroke=""; }
+          // only flip to `done` once every wedge queued up for this clock has
+          // actually landed, so all of them start pulsing on the same frame
+          if(bumpPending(c.id,-1)<=0) card.classList.toggle("done",c.filled>=c.segs);
+          advance();
+        },
+        t=>{
+          // ramp the held pulse colour down to the resting palette over the same
+          // eased curve the geometry uses, so brightness and shape land together
+          if(fillFrom) p.style.fill=lerpColorAny(fillFrom,"#5b5b5b",t);
+          if(!line) return;
+          line.style.stroke=strokeFrom
+            ? lerpColorAny(strokeFrom,isFull?"#787878":"#3a3a3a",t)
+            : (isFull?lerpColor("#3a3a3a","#787878",t):lerpColor("#787878","#3a3a3a",t));
+        }
+      );
+    });
+  });
+
+  // nothing animated this call (shouldn't happen) — only safe to settle
+  // `done` immediately if no other in-flight animation for this clock is
+  // still pending elsewhere
+  if(!anyStarted&&(pendingAnim.get(c.id)||0)<=0) card.classList.toggle("done",c.filled>=c.segs);
+}
+
+function setSegs(c,n){
+  const nn=Math.max(MIN_SEGS,Math.min(MAX_SEGS,n));
+  const card=findCard(c.id);
+  if(nn===c.segs){
+    if(card){ const f=card.querySelector(".segfield"); if(f) f.value=c.segs; }
+    return;
+  }
+  c.segs=nn;
+  if(c.filled>nn) c.filled=nn;
+  idbPut(c);
+  if(!card){ render(); return; }
+  // segment count changed the wedge count, so only the dial itself needs
+  // rebuilding — the card, name field, and focus state stay untouched
+  const dialwrap=card.querySelector(".dialwrap");
+  dialwrap.innerHTML="";
+  dialwrap.appendChild(buildDial(c));
+  const field=card.querySelector(".segfield");
+  if(field) field.value=c.segs;
+  card.classList.toggle("done",c.filled>=c.segs);
+}
+
+function addClock(){
+  const c={id:newId(),name:"",segs:DEFAULT_SEGS,filled:0,order:nextOrder++};
+  clocks.push(c);
+  idbPut(c);
+  render();
+  const idx=sortedClocks().findIndex(x=>x.id===c.id);
+  const card=grid.children[idx];
+  if(card){ const f=card.querySelector(".cname"); if(f) f.focus(); }
+}
+
+function removeClock(id){
+  clocks=clocks.filter(x=>x.id!==id);
+  if(hoveredId===id) hoveredId=null;
+  chainState.delete(id);
+  pendingAnim.delete(id);
+  idbDelete(id);
+  render();
+}
+
+document.getElementById("addbtn").addEventListener("click",addClock);
+window.addEventListener("keydown",e=>{
+  if(e.key==="Enter"&&e.shiftKey){ e.preventDefault(); addClock(); return; }
+  if(e.key==="Escape"){
+    const tag=(e.target&&e.target.tagName)||"";
+    // typing? just leave the field
+    if(tag==="INPUT"||tag==="TEXTAREA"||(e.target&&e.target.isContentEditable)){ e.target.blur(); return; }
+    if(hoveredId){ e.preventDefault(); removeClock(hoveredId); hoveredId=null; }
+  }
+});
+
+/* ---------- init ---------- */
+(async function init(){
+  try{
+    await openDB();
+    clocks=await idbGetAll();
+    nextOrder=clocks.reduce((m,c)=>Math.max(m,(c.order||0)+1),0);
+  }catch(err){
+    console.warn("Storage unavailable; clocks will not persist.",err);
+  }
+  render();
+  // the webfont may land after first paint; remeasure titles when it does
+  if(document.fonts&&document.fonts.ready){
+    document.fonts.ready.then(()=>grid.querySelectorAll(".cname").forEach(fitName));
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Written Post Facto.
+
+They explore northern Galatea, engage in some activities, and go north to Library of Galatea, where they take down the Condors protecting it, make friends with L.W, and send word to Galatea, to take down the wall that segregated its magical and human residents. Graphel asks for L.W's help in locating anything related to Abati Faria, the author of his childhood stories, and L.W points him to the Kaleidoscope of Galatus, which can find any soul its user wants.

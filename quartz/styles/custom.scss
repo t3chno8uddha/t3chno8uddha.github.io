@@ -1,0 +1,37 @@
+@use "./variables.scss" as *;
+
+// put your custom CSS here!
+.transclude h1:first-child {
+  display: none;
+}
+.transclude img {
+  display: none;
+}
+
+.note-properties {
+  max-height: none !important;
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  td {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  *:has(> .tag-link) {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.4rem !important;
+  }
+
+  .tag-link {
+    white-space: nowrap !important;
+    flex: 0 0 auto !important;
+  }
+}
+.callout[data-callout="spoilers"] {
+  display: none;
+}

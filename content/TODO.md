@@ -1,8 +1,1 @@
----
-quartz-properties: false
-unlisted: true
----
-- Funeral Rites
-- Ordinary life
-- More history
-- Fill the encyclopedia
+/home/technobuddha/Documents/Asphodian Tales/TODO.md

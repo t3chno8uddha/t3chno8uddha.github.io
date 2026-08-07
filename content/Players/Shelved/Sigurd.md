@@ -2,7 +2,7 @@
 Full_Name: Sigurd
 Type: PC
 Heritage: "[[Gail]]"
-Birthplace: "[[Adamail's Imperviable Stronghold]]"
+Birthplace: "[[Adamail]]"
 Location: "[[Ga'Al-Tey Monastery]]"
 Allegiance:
   - "[[Adamaal]]"

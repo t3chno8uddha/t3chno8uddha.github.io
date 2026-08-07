@@ -18,7 +18,7 @@ Tags:
 ---
 Goddess of **motherhood**, **destruction** and the patron god of **Dragons**.
 
-Governs over **[[Drakengard]]** and **[[The Duchy of Dhidalah]]**.
+Governs over **[[Drakengard]]** and **[[Dhidalah]]**.
 
 Her most noteworthy relic is the **Manderwool Cloak**, a celestial cape that bestows Infernal and Glacial powers to the wearer.
 

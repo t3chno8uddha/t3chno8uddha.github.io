@@ -2,8 +2,8 @@
 Full_Name: Duke Aurus Daedalus
 Type: NPC
 Heritage: "[[Vampyr]]"
-Birthplace: "[[The Duchy of Dhidalah]]"
-Location: "[[The Duchy of Dhidalah]]"
+Birthplace: "[[Dhidalah]]"
+Location: "[[Dhidalah]]"
 Allegiance:
   - "[[Draca]]"
   - "[[Temeran]]"

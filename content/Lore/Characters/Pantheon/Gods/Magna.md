@@ -2,7 +2,7 @@
 Full_Name: Magna, the Elegant
 Type: God
 Birthplace: The Sempiternal Plane
-Location: "[[Castle Kingdom Magnolia]]"
+Location: "[[Magnolia]]"
 Allegiance:
   - "[[Asphea]]"
 Opposition:

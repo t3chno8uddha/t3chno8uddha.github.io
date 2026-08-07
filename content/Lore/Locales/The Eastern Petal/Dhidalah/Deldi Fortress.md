@@ -1,7 +1,7 @@
 ---
 Full_Name: Deldi Fortress
 Type: Locale
-Location: "[[The Duchy of Dhidalah]]"
+Location: "[[Dhidalah]]"
 Allegiance:
   - "[[Draca]]"
   - "[[Duke Daedalus]]"

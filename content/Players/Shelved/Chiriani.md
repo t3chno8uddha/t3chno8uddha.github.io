@@ -2,7 +2,7 @@
 Full_Name: Chiriani
 Type: PC
 Heritage: "[[Gail]]"
-Birthplace: "[[Mansfield Manor]]"
+Birthplace: "[[Mansfield]]"
 Location:
 Allegiance:
 Opposition:

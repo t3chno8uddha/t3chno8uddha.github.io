@@ -15,5 +15,5 @@ marker:
 ---
 A hall of statues, depicting the Gods and their war - Crucito's shrine to hismself and his siblings, for those who wish to pray.
 
-Located north of [[Mansfield Manor]].
+Located north of [[Mansfield]].
 ![[Temple_of_Asphodel.png]]

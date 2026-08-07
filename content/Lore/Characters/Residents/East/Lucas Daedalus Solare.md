@@ -3,7 +3,7 @@ Full_Name: Lucas Daedalus Solare
 Type: NPC
 Heritage: "[[Vampyr]]"
 Birthplace:
-Location: "[[Castle Kingdom Magnolia]]"
+Location: "[[Magnolia]]"
 Allegiance:
   - "[[Duke Daedalus]]"
 Opposition:

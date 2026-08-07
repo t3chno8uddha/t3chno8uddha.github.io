@@ -2,7 +2,7 @@
 unlisted: true
 ---
 
- [[Castle Kingdom Magnolia]]
+ [[Magnolia]]
 The cast wakes up in a random bordello that they have no memory of visiting. Next to them is a muscular dead man with two rings that they remember.
 
 They've been magic deal brainwashed into killing someone and bringing their body to the clients.

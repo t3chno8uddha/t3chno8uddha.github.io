@@ -32,7 +32,7 @@ unlisted: true
 - Past [[Rubimel]], Maxill falls from the sky and joins the party.
 - At [[Papillopolis]], the party communes with [[Lutrios]] and is subjected to visions they can't yet decode. Alastor is punished for his hubris with intense spiritual power over which he has no control. Francis' trial is deemed unnecessary, and [[King Robert IV]] greets him as son.
 - Papillopolis and Rubimel burn; the last sapling of Lutrios comes to reside in Alastor's soul.
-- Back at Rubimel: [[Mansfield Manor]]'s kidnappings are discovered. The party infiltrates the spire and breaks out all its magical residents, destroying half the tower; [[High General Perialus]] is undone.
+- Back at Rubimel: [[Mansfield]]'s kidnappings are discovered. The party infiltrates the spire and breaks out all its magical residents, destroying half the tower; [[High General Perialus]] is undone.
 - Rafael, checking on Asbarnia, finds traces of his brother, hunts him, and traces him to the destruction of Mansfield. He attacks Raul at sea and defeats him again, trapping his soul and hiding it away where no one would find it. As his last act, Raul preserves the lives of his allies, leaving them frozen in time, in the ocean, for 28 years.
 ### 1436
 - [[Brant]] seals the Abyssal [[Megido]] in his own body, and is exiled from his order. 
@@ -43,7 +43,7 @@ unlisted: true
 - In [[The Karacol Province]]: Maxill duels [[Edmund the Fourth]] for the province's generalship. [[Bulga]] joins, searching for her Aél husband, their child with her. The party communes with the Karacolian king, trades sensitive political information, forms an alliance, and is granted supplies for Magnolia.
 - Rafael, having hypnotized and manipulated his way into the Galatean throne-room, seeks to wage war against Dhidalah, Draca, her kingdom Drakengard and all of her worshipers, to avenge his empire. Raul is trying to kill his brother to prevent that war.
 - [[Ekthes]] joins, searching for his teacher, [[Abati Faria]]. Alastor, Ekthes and Francis detour to a moonlit tower - [[Crucito's Gallery]] - commune with the god, and lend him their strength in search of new information.
-- A week later, at [[Castle Kingdom Magnolia]], the party wakes with a corpse in their room and no memory of how they got there. They learn they were tricked by orphans - via a magic deal - into killing a powerful wrestler for the Idolon Arena, to pay back a criminal debt. The party pays the debt out of pocket, fights the criminals, and participates in the tournament at the orphans' whim.
+- A week later, at [[Magnolia]], the party wakes with a corpse in their room and no memory of how they got there. They learn they were tricked by orphans - via a magic deal - into killing a powerful wrestler for the Idolon Arena, to pay back a criminal debt. The party pays the debt out of pocket, fights the criminals, and participates in the tournament at the orphans' whim.
 - The tournament: Bulga vs Epidemus; Alastor vs a Karacolian hunter who refuses magic; Graphel vs [[Lucas Daedalus Solare]]; Maxill vs Hemos Solare. Hemos resurfaces, and learns Daedalus is in fact his real father.
 - Duke Daedalus greets the reunited party, and cordially invites them to Dhidalah for a seance with him.
 - At [[Brejur Academy]]: the academy is found Ashes-to-Ashes'd over by the child [[Vigo]], its population ghosts possessing their own decomposing bodies; Abyssals attack the party by night. After dispelling the execration, Alastor takes him to a school in Magnolia.

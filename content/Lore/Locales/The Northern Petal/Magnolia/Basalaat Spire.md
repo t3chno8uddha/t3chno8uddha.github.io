@@ -1,13 +1,15 @@
 ---
 Full_Name: Basalaat Spire
 Type: Locale
-Location: "[[Castle Kingdom Magnolia]]"
+Location: "[[Magnolia]]"
 Allegiance:
 Opposition:
 Populace:
 Status: Standing
-First_Seen: 
+First_Seen:
 Tags:
-marker: [{ coordinates: "5620, 2085", colour: "#787674" }]
+marker:
+  - coordinates: 5620, 2085
+    colour: "#787674"
 ---
 

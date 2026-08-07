@@ -2,7 +2,7 @@
 Full_Name: Ekthes Melphium
 Type: PC
 Heritage: "[[Aél]]"
-Birthplace: "[[Castle Kingdom Magnolia]]"
+Birthplace: "[[Magnolia]]"
 Location: "[[Wassonia]]"
 Allegiance:
   - "[[Abati Faria]]"

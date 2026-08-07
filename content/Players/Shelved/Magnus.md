@@ -2,7 +2,7 @@
 Full_Name: Magnus
 Type: PC
 Heritage: "[[Aél]]"
-Birthplace: "[[Castle Kingdom Magnolia]]"
+Birthplace: "[[Magnolia]]"
 Location:
 Allegiance:
   - "[[Rafael]]"

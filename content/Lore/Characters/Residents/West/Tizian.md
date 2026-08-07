@@ -2,8 +2,8 @@
 Full_Name: Tizian Tarrin
 Type: NPC
 Heritage:
-Birthplace: "[[Mansfield Manor]]"
-Location: "[[Mansfield Manor]]"
+Birthplace: "[[Mansfield]]"
+Location: "[[Mansfield]]"
 Allegiance:
   - "[[Rafael]]"
 Opposition:

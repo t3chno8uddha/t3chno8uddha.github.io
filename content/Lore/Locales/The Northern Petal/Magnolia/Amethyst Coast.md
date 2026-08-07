@@ -1,14 +1,16 @@
 ---
 Full_Name: Amethyst Coast
 Type: Locale
-Location: "[[Castle Kingdom Magnolia]]"
+Location: "[[Magnolia]]"
 Allegiance:
 Opposition:
 Populace:
 Status: Standing
 First_Seen: 1413
 Tags:
-marker: [{ coordinates: "3555, 2679", colour: "#45413f" }]
+marker:
+  - coordinates: 3555, 2679
+    colour: "#45413f"
 ---
 A purple-hued coastal region where **Magnus** washes ashore, with no memory of how he arrived.
 

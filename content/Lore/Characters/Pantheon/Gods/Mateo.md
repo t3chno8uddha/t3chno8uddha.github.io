@@ -1,7 +1,7 @@
 ---
 Full_Name: Mateo, the Ardent
 Type: God
-Birthplace: "[[Adamail's Imperviable Stronghold]]"
+Birthplace: "[[Adamail]]"
 Location: "[[Papillopolis]]"
 Allegiance:
   - "[[Asphea]]"

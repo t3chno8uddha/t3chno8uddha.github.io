@@ -2,7 +2,7 @@
 Full_Name: Anton Karabas
 Type: NPC
 Heritage: "[[Vampyr]]"
-Birthplace: "[[The Duchy of Dhidalah]]"
+Birthplace: "[[Dhidalah]]"
 Location: "[[Eethert Plains]]"
 Allegiance:
 Opposition:

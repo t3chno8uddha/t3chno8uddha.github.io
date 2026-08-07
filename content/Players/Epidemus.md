@@ -2,7 +2,7 @@
 Full_Name: Epidemus Hyde
 Type: PC
 Heritage: "[[Undine]]"
-Birthplace: "[[The Duchy of Dhidalah]]"
+Birthplace: "[[Dhidalah]]"
 Location: "[[Wassonia]]"
 Allegiance:
 Opposition:

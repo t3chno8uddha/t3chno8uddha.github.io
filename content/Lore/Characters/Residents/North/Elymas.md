@@ -2,8 +2,8 @@
 Full_Name: Elymas
 Type: NPC
 Heritage: "[[Gail]]"
-Birthplace: "[[Mansfield Manor]]"
-Location: "[[Castle Kingdom Magnolia]]"
+Birthplace: "[[Mansfield]]"
+Location: "[[Magnolia]]"
 Allegiance:
 Opposition:
 Family:

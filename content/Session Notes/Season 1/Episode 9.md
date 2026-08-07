@@ -25,7 +25,7 @@ Old Alastor challenges his younger self into actually living a better life, demo
 "Fae, after your grandmother's passing you went on adventure all on your own, you've fought, stolen, you've loved and you've lost. And you've found, among other things, the scrap of a legendary book, but alas, nothing on the eastern petal seems to lead to the rest of it. The scrapped page only has one spell on it - Telelink
 
 To morrow marks the anniversary of your grandmother's passing. You've been meaning to visit her grave for a while, now. Your travels led you from Adamail to Galatea, and now back to Rubimel, a swamp town. Perhaps the only simple way in the world to go in and out of Papillopolis, the forest in which you were born. On your way to Rubimel, however, you were low on supplies, so you made a stop by the only nearby settlement - The Mansfield Manor."
-![[Mansfield Manor]]
+![[Mansfield]]
 Its entrance towers over you, and a pair of guards stands by the front gate, and all around the surrounding walls.
 `Improvise a scene here. Bar her from entry. Make the Mansfielders track her down to Rubimel.`
 Back to the main party, they finally enter Rubimel. Perhaps for the first time they're greeted by most of the village, who shower the new visitors with attention. Sage Morrigan welcomes them into the village and to the campsite.

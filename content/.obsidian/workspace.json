@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Gameplay/Wilt/9. Quests.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "9. Quests"
             }
           }
         ]
@@ -188,8 +188,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "c4c245c2f6f41f2c",
+  "active": "4d6158ef081c99fa",
   "lastOpenFiles": [
+    "Gameplay/Wilt/10. Character Creation.md",
+    "Gameplay/Wilt/8. Spells, Scrolls and Attunement.md",
+    "Gameplay/Wilt/7. Archetypes, Heritages and Abilities.md",
+    "Gameplay/Wilt/6. Sequences and Group Actions.md",
+    "Gameplay/Wilt/5. FLesh, Soul and Damage.md",
+    "Gameplay/Wilt/4. Stopwatches.md",
+    "Gameplay/Wilt/3. Acts.md",
+    "Gameplay/Wilt/2. Peril & Payoff.md",
+    "Gameplay/Wilt/1. Rolling the Dice.md",
+    "index.md",
     "Media/Unused/gelatinous_terror_by_tituslunter_d8h65k3-pre.jpg",
     "Media/Unused/Bridge 3.png",
     "Media/Unused/nikita-shushman-forest.jpg",
@@ -200,7 +210,6 @@
     "Media/Unused/Ball.jpeg",
     "Media/Unused/Tavern.jpeg",
     "Media/Unused/li-moly-2015-01-25.jpg",
-    "Media/Unused/Torn Palace.jpg",
     "Media/Unused",
     "Media/OLD/Character Sheet_OLD.pdf",
     "Media/OLD",
@@ -226,15 +235,6 @@
     "Lore/Phenomena/Exanimation.md",
     "Lore/Phenomena/Edicts.md",
     "Lore/Phenomena/Drakenblight.md",
-    "Lore/Phenomena/Cronika's Shrines.md",
-    "Lore/Phenomena/Chronokinesis.md",
-    "Lore/Phenomena/Abyss Mastery.md",
-    "Lore/Locales/Phantom Saltwaters.md",
-    "Lore/Locales/The Southern Petal/Sempiternal Observatory.md",
-    "Lore/Locales/The Southern Petal/Kronitia.md",
-    "Lore/Locales/Loca Loha.md",
-    "Lore/Locales/Infernait.md",
-    "Lore/Locales/The Atoll/Lazalan Atoll.md",
-    "Lore/Locales/The Atoll/Lacertus.md"
+    "Lore/Phenomena/Cronika's Shrines.md"
   ]
 }

@@ -1,9 +1,9 @@
 ---
 Full_Name: Manzel Family Docks
 Type: Locale
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
-  - "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+  - "[[Galatea]]"
 Opposition:
 Populace:
   - Aél

@@ -3,7 +3,7 @@ Full_Name: Rafael Tannengard
 Type: NPC
 Heritage: "[[Gail]]"
 Birthplace: "[[Kronitia]]"
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
   - "[[Cronika]]"
 Opposition:

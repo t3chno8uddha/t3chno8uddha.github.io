@@ -1,7 +1,7 @@
 ---
 Full_Name: The Library of Galatea
 Type: Shrine
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
   - "[[Leemward]]"
 Opposition:

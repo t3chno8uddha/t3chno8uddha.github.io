@@ -1,7 +1,7 @@
 ---
 Full_Name: Umbraaltar
 Type: Shrine
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
   - "[[Temeran]]"
 Opposition:

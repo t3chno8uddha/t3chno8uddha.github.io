@@ -2,10 +2,10 @@
 Full_Name: Hemos Solare
 Type: PC
 Heritage: "[[Vampyr]]"
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[Wassonia]]"
 Allegiance:
-  - "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+  - "[[Galatea]]"
 Opposition:
   - "[[Cornelius]]"
 Family:

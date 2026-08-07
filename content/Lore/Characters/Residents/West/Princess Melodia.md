@@ -2,10 +2,10 @@
 Full_Name: Princess Melodia
 Type: NPC
 Heritage:
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
-  - "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+  - "[[Galatea]]"
   - "[[Rafael]]"
   - "[[Graphel]]"
 Opposition:

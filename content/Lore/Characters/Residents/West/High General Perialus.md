@@ -2,7 +2,7 @@
 Full_Name: High General Perialus
 Type: NPC
 Heritage:
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[Mansfield]]"
 Allegiance:
 Opposition:

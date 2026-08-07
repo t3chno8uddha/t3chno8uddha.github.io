@@ -1,7 +1,7 @@
 ---
 Full_Name: Ga'Al-Tey Monastery
 Type: Locale
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
   - "[[Galatus]]"
 Opposition:

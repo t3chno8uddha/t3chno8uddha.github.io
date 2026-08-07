@@ -2,7 +2,7 @@
 Full_Name: Graphel Degrie
 Type: PC
 Heritage: "[[Gail]]"
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[Wassonia]]"
 Allegiance:
   - "[[Princess Melodia]]"

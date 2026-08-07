@@ -2,7 +2,7 @@
 Full_Name: Leemward
 Type: NPC
 Heritage:
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[The Library of Galatea]]"
 Allegiance:
   - "[[Graphel]]"

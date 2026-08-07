@@ -1,7 +1,7 @@
 ---
 Full_Name: Asbarnia
 Type: Locale
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
 Opposition:
 Populace:

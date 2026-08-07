@@ -20,7 +20,7 @@ The avatar of [[Temeran]]'s pain, often hailed as the first Abyssal.
 
 The Second Son is Said to have been the first practitioner of Wurdulac arts.
 
-Legend claims, that sometime before the God War, he stepped into the sunlight and turned to ash. Today, his remnant ashes make up the desert known as [[Asphodel's Arena]], where the gods made battle.
+Legend claims, that sometime before the God War, he stepped into the sunlight and turned to ash. Today, his remnant ashes make up the desert known as [[The Arena]], where the gods made battle.
 
 It is unclear exactly when he started being regarded as the king of Te'Al, but rumor has it that the Second Son slithers out of the shadows of the Fleeting Plane, whenever he feels like hunting. He feeds on the blood of those who fall in battle.
 

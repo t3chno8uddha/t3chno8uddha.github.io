@@ -1,7 +1,7 @@
 ---
 Full_Name: Mansfield Manor
 Type: Locale
-Location: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Location: "[[Galatea]]"
 Allegiance:
   - "[[Galatus]]"
   - "[[High General Perialus]]"

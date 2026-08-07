@@ -2,10 +2,10 @@
 Full_Name: Theo
 Type: NPC
 Heritage: "[[Aél]]"
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[Eethert Plains]]"
 Allegiance:
-  - "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+  - "[[Galatea]]"
   - "[[Francis]]"
   - "[[Graphel]]"
   - "[[Abara]]"

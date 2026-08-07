@@ -17,7 +17,7 @@ Tags:
 ---
 God of **camaraderie**, **hope**, and the patron god of **[[Gail]]**.
 
-Governs over **[[Lore/Locales/The Western Petal/Galatea/Galatea]]**.
+Governs over **[[Galatea]]**.
 
 His most noteworthy relic is the **Kaleidoscope of Galatus**, a looking glass that lets the user find any soul they want.
 

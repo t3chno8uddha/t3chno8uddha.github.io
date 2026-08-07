@@ -2,7 +2,7 @@
 Full_Name: Abati Faria
 Type: NPC
 Heritage: "[[Gail]]"
-Birthplace: "[[Lore/Locales/The Western Petal/Galatea/Galatea]]"
+Birthplace: "[[Galatea]]"
 Location: "[[Ehelden]]"
 Allegiance:
 Opposition:

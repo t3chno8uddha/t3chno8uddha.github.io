@@ -16,6 +16,6 @@ tags:
 A travelling merchant.
 
 >[!spoilers]
->In the employ of [[Rafael]]. Enlisted Juanush, Sani, Marine, Caliburn and Via to ship corpses to Mansfield.
+>In the employ of [[Rafael]]. Enlisted Juanush, Sani, Marine, Caliburn and [[Via]] to ship corpses to [[Mansfield]].
 
 ![[Ettrick.png]]

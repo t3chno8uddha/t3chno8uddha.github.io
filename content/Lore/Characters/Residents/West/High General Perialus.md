@@ -11,5 +11,5 @@ Status: Dead
 First_Seen: 1413
 tags:
 ---
-Ruler of Mansfield Manor in 1413, before his undoing and the freeing of all magical prisoners held inside the stronghold's walls.
+Ruler of [[Mansfield]] Manor in 1413, before his undoing and the freeing of all magical prisoners held inside the stronghold's walls.
 ![[High_General_Perialus.png]]

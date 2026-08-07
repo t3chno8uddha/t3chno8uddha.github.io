@@ -15,7 +15,7 @@ Status: Alive
 First_Seen: 1413
 tags:
 ---
-Princess of Galatea, sister of prince [[Hemos]], and a friend 
+Princess of [[Galatea]], sister of prince [[Hemos]], and a friend 
 of [[Graphel]]'s.
 
 >[!spoilers]

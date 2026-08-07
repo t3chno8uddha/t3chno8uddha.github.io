@@ -4,7 +4,7 @@ tags:
   - Time_Travel
   - Pocket_Dimension
 ---
-Scattered across the realms are shrines to many a god. Cronika's shrines specifically carry an unique property: Her blood can imprint itself on the world like a star, and transfer iself between other imprints.
+Scattered across the realms are shrines to many a god. [[Cronika]]'s shrines specifically carry an unique property: Her blood can imprint itself on the world like a star, and transfer iself between other imprints.
 
 To put it coloquially - Cronika's godbloods can essentially "save" in moments of history when they visit her Shrines, and "Load" between different "saves" by transfering their souls and those of their companions between time.
 

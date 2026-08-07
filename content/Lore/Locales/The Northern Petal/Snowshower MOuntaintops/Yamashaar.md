@@ -5,8 +5,8 @@ Location: "[[Ehelden]]"
 Allegiance:
 Opposition:
 Populace:
-  - Fae
-  - Lazi
+  - "[[Fae]]"
+  - "[[Lazi]]"
 Status: Standing
 First_Seen:
 tags:

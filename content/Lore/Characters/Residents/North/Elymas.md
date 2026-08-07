@@ -11,7 +11,7 @@ Status: Alive
 First_Seen: 1441
 tags:
 ---
-A champion prepared for the Idolon Arena of Castle Kingdom Magnolia.
+A champion prepared for the Idolon Arena of Castle Kingdom [[Magnolia]].
 
 >[!spoilers]
 >Has access to **all** Knight, Hunter and Drifter abilities.

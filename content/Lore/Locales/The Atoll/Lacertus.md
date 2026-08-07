@@ -6,7 +6,7 @@ Allegiance:
   - "[[Maluma]]"
 Opposition:
 Populace:
-  - Lazi
+  - "[[Lazi]]"
 Status: Standing
 First_Seen: 
 tags:

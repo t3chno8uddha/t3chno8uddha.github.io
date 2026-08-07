@@ -2,16 +2,16 @@
 unlisted: true
 ---
 
-Magnolia's main self-governing entities include:
+[[Magnolia]]'s main self-governing entities include:
 # Magnists
-The largest families and bloodlines of old, children of Magna that know magic both through their mind and their flesh. Despite looking down on the other factions, they do accept and allow them to live and exist outside the castle's inner ward. Their most common method of punishment is banishment and exile, but not from the castle but from the inner ward itself, out into the rest of the factions' territories. Travel in and out of the inner walls is strictly enforced, mostly by old and wizened members of the community.
+The largest families and bloodlines of old, children of [[Magna]] that know magic both through their mind and their flesh. Despite looking down on the other factions, they do accept and allow them to live and exist outside the castle's inner ward. Their most common method of punishment is banishment and exile, but not from the castle but from the inner ward itself, out into the rest of the factions' territories. Travel in and out of the inner walls is strictly enforced, mostly by old and wizened members of the community.
 
-**Influence:** *Magnolia's Chambertown, The Old Bailey,  Abara's Donjon, The Inner Courtyard*
+**Influence:** *Magnolia's Chambertown, The Old Bailey,  [[Abara]]'s Donjon, The Inner Courtyard*
 **Tensions:** *Cartogas, Incarnists* 
 **Peace:** *Falconians*
 
 # Falconians
-Founders of New Adamail - old fashioned, mask-donning authoritarians. They try to enforce laws strictly and swiftly, disregarding whether or not it claims a civilian, a criminal, or one of their own. Perhaps the least corrupt but most ruthless of the factions. Their Adamailian origins often translate into their tastes, inhospitality but also a sense of pride and righteousness.
+Founders of New [[Adamail]] - old fashioned, mask-donning authoritarians. They try to enforce laws strictly and swiftly, disregarding whether or not it claims a civilian, a criminal, or one of their own. Perhaps the least corrupt but most ruthless of the factions. Their Adamailian origins often translate into their tastes, inhospitality but also a sense of pride and righteousness.
 
 **Influence:** *New Adamail, Redflock (North Coast)*
 **Tensions:** *Cartogas*

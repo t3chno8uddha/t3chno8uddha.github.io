@@ -9,13 +9,13 @@ Allegiance:
 Opposition:
   - "[[Drakengard]]"
 Populace:
-  - Gail
+  - "[[Gail]]"
 Status: Standing
 First_Seen: 
 tags:
 marker: [{ coordinates: "2220, 3759", colour: "#4a4a5c" }]
 ---
-A kingdom held jointly by Cronika, Lancast and Fidico, Had theological and political friction with **[[Drakengard]]** since 1327.
+A kingdom held jointly by [[Cronika]], [[Lancast]] and [[Fidico]], Had theological and political friction with **[[Drakengard]]** since 1327.
 
 Wonderlay, despite being hailed as a holy kingdom, is regarded profoundly corrupt. The same corruption led to Sir Francis fleeing it in 1413. 
 

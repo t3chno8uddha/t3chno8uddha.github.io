@@ -14,7 +14,7 @@ marker:
   - coordinates: 4509, 3532
     colour: "#4b4136"
 ---
-A port kingdom that worships **Adamaal**. The Karacol Province does **not** practice capital punishment.
+A port kingdom that worships **[[Adamaal]]**. The Karacol Province does **not** practice capital punishment.
 
 In 1413, the heir to the throne was slain, and his brother inherited the royal line.
 

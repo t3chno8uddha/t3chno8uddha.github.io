@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Caravan/Brant.md",
+                "file": "Gameplay/Wilt/10. Character Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brant"
+              "title": "10. Character Creation"
             }
           }
         ]
@@ -190,9 +190,25 @@
   },
   "active": "4d6158ef081c99fa",
   "lastOpenFiles": [
+    "content.tar.gz",
+    "ABRwDujMWVw7oafP.content.tar.gz",
+    "Gameplay/Wilt/9. Quests.md",
+    "Gameplay/Wilt/8. Spells, Scrolls and Attunement.md",
+    "Gameplay/Wilt/7. Archetypes, Heritages and Abilities.md",
+    "Gameplay/Wilt/6. Sequences and Group Actions.md",
+    "Gameplay/Wilt/5. FLesh, Soul and Damage.md",
+    "Gameplay/Wilt/4. Stopwatches.md",
+    "Gameplay/Wilt/3. Acts.md",
+    "Gameplay/Wilt/1. Rolling the Dice.md",
+    "Gameplay/Wilt/2. Peril & Payoff.md",
+    "Gameplay/Wilt.md",
+    "Lore/Phenomena/Godspeak.md",
+    "Lore/Cosmology.md",
+    "Lore/The Timeline.md",
+    "Gameplay/Asphodia/Heritages/Aél.md",
+    "Caravan/Brant.md",
     "Caravan/Bulga.md",
     "Caravan/Caliburn.md",
-    "Caravan/Brant.md",
     "index.md",
     "Character Sheet.pdf",
     "Lore/Characters/Residents/West/Leemward.md",
@@ -203,23 +219,8 @@
     "Lore/TTZkH8RuHSHVFwxm.Lore.tar.gz",
     "Lore/Locales/Phantom Saltwaters.md",
     "Gameplay/Asphodia/Elements.md",
-    "Gameplay/Wilt/6. Sequences and Group Actions.md",
-    "Gameplay/Wilt.md",
     "Lore/Locales/Loca Loha.md",
     "Lore/DskXed0TlkVwDofh.Lore.tar.gz",
-    "Lore/Phenomena/Edicts.md",
-    "Lore/Phenomena/Cronika's Shrines.md",
-    "Lore/Phenomena/Chronokinesis.md",
-    "Lore/Phenomena/Drakenblight.md",
-    "Review.md",
-    "Gameplay/Wilt/1. Rolling the Dice.md",
-    "Gameplay/Wilt/2. Peril & Payoff.md",
-    "Gameplay/Wilt/3. Acts.md",
-    "Gameplay/Wilt/4. Stopwatches.md",
-    "Gameplay/Wilt/5. FLesh, Soul and Damage.md",
-    "Gameplay/Wilt/7. Archetypes, Heritages and Abilities.md",
-    "Gameplay/Wilt/8. Spells, Scrolls and Attunement.md",
-    "Gameplay/Wilt/9. Quests.md",
     "Media/Unused/gelatinous_terror_by_tituslunter_d8h65k3-pre.jpg",
     "Media/Unused/Bridge 3.png",
     "Media/Unused/nikita-shushman-forest.jpg",
@@ -234,7 +235,6 @@
     "Media/OLD/Character Sheet_OLD.pdf",
     "Media/OLD",
     "Media/Images/tokens",
-    "Media/Images/pantheon/deities",
-    "Media/Images/pantheon/gods"
+    "Media/Images/pantheon/deities"
   ]
 }

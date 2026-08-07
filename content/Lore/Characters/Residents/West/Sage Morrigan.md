@@ -11,5 +11,5 @@ Status: Vague
 First_Seen: 1413
 tags:
 ---
-A sage of Rubimel, who welcomed visitors and ran the town's campsite.
+A sage of [[Rubimel]], who welcomed visitors and ran the town's campsite.
 ![[Sage_Morrigan.png]]

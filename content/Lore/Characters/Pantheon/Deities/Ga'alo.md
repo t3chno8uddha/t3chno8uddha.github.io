@@ -13,4 +13,4 @@ Status: Dead
 First_Seen:
 tags:
 ---
-The first son of Galatus and Abara.
+The first son of [[Galatus]] and [[Abara]].

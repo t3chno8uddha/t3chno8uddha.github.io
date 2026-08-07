@@ -13,6 +13,6 @@ Status: Alive
 First_Seen: 1413
 tags:
 ---
-The child of Lutrios, and also its very leaves. Said to be the embodiment of happiness of all living creatures.
+The child of [[Lutrios]], and also its very leaves. Said to be the embodiment of happiness of all living creatures.
 
 ![[Joy.png]]

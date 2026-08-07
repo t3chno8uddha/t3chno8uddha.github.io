@@ -13,7 +13,7 @@ Status: Vague
 First_Seen: 1413
 tags:
 ---
-A guru residing in Rubimel, able to guide visitors from the swamp town into Papillopolis - The First Forest.
+A guru residing in [[Rubimel]], able to guide visitors from the swamp town into [[Papillopolis]] - The First Forest.
 
 Guru Dizang posesses a singular power - being both a zealot and an occultist, he completely transcends the Solar and Lunar split.
 

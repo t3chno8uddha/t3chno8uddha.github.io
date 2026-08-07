@@ -6,15 +6,15 @@ Allegiance:
   - "[[Lutrios]]"
 Opposition:
 Populace:
-  - Biota
-  - God
+  - "[[Biota]]"
+  - "[[God]]"
 Status: Destroyed
 First_Seen: 1413
 tags:
   - Forest
 marker: [{ coordinates: "2865, 1764", colour: "#52514d" }]
 ---
-**Status, 1441:** *Burned to the ground in 1413; the last sapling of Lutrios resides in the soul of [[Alastor]]. The following description reflects the forest before the burning.*
+**Status, 1441:** *Burned to the ground in 1413; the last sapling of [[Lutrios]] resides in the soul of [[Alastor]]. The following description reflects the forest before the burning.*
 ![[Outside_Papillopolis.png]]
 Home and grounds of the god Lutrios, as well as his children, and the place where all flora was born.
 

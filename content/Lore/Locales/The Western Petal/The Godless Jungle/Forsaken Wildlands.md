@@ -5,8 +5,8 @@ Location: The Western Petal
 Allegiance:
 Opposition:
 Populace:
-  - Biota
-  - Fiend
+  - "[[Biota]]"
+  - "[[Fiend]]"
 Status: Standing
 First_Seen:
 tags:

@@ -13,5 +13,5 @@ marker:
     colour: "#69676b"
 ---
 Ancient abandoned monastery.
-1400 onward, a large oracle settlement south of Dhidalah.
+1400 onward, a large oracle settlement south of [[Dhidalah]].
 Home to [[Alastor]].

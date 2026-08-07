@@ -6,7 +6,7 @@ Allegiance:
   - "[[Crucito]]"
 Opposition:
 Populace:
-  - Aél
+  - "[[Aél]]"
 Status: Standing
 First_Seen: 1441
 tags:

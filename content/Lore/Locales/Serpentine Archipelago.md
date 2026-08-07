@@ -5,8 +5,8 @@ Location: The Ocean
 Allegiance:
 Opposition:
 Populace:
-  - Exanimate
-  - Fiend
+  - "[[Exanimate]]"
+  - "[[Fiend]]"
 Status: Standing
 First_Seen:
 tags:

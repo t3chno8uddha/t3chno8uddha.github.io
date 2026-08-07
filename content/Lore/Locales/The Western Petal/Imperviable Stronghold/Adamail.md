@@ -6,18 +6,18 @@ Allegiance:
   - "[[Adamaal]]"
 Opposition:
 Populace:
-  - Gail
-  - Aél
-  - Undine
-  - Lazi
+  - "[[Gail]]"
+  - "[[Aél]]"
+  - "[[Undine]]"
+  - "[[Lazi]]"
 Status: Standing
 First_Seen:
 tags:
 marker: [{ coordinates: "1563, 1416", colour: "#4f443a" }]
 ---
-One of Adamaal's two kingdoms. A massive fortress, and home to [[Sigurd]].
+One of [[Adamaal]]'s two kingdoms. A massive fortress, and home to [[Sigurd]].
 
-At the edge of the kingdom, there is a spire titled Adamaal's Levee. The tower leads to the bottom of the Western sea, to the Undine kingdom.
+At the edge of the kingdom, there is a spire titled Adamaal's Levee. The tower leads to the bottom of the Western sea, to the [[Undine]] kingdom.
 
 The first Oracle, **[[Mateo]] the Ardent**, left his home here to wander the world.
 

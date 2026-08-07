@@ -6,10 +6,10 @@ Allegiance:
   - "[[Galatea]]"
 Opposition:
 Populace:
-  - Aél
-  - Gail
-  - Biota
-  - Undine
+  - "[[Aél]]"
+  - "[[Gail]]"
+  - "[[Biota]]"
+  - "[[Undine]]"
 Status: Standing
 First_Seen:
 tags:

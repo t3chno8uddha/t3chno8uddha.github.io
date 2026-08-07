@@ -15,7 +15,7 @@ tags:
 ---
 Goddess of **love**, **deceit**, and the patron god of **[[Fae]]**.
 
-Governs over **[[Loca Loha]]**, as well as **families** and **bedrooms**, and shares the afterlife with Magna.
+Governs over **[[Loca Loha]]**, as well as **families** and **bedrooms**, and shares the afterlife with [[Magna]].
 
 Her most noteworthy relic is **Abara's Wreath**, a Faunal crown that can sway armies.
 

@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 The orphan and his patron are trying to pay off a debt, hence brainwashing the party into an assassination so that they could win a fight and pay off their debt. If pestered, their champion could be someone else, from the party instead.
 
 The Idolon arena is a 1v1 fighting game, not technically a tournament. Every turn introduces new modifiers such as climate changes, environmental changes and new fodder combatants.

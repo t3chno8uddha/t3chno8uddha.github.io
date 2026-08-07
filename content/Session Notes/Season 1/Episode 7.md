@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 The party finds themselves camping the night out, sitting beside a fire. The starry night shines equally bright on all of you, and the crescent moon almost looks like a smile. There is food cooking in a pot above the campfire, and Francis tends to the meal. The horses, close by, munch on grass and hay, and the Aél Theo has left the party. Hemos finally walks out of the caravan to meet the new characters, and so does [[Graphel]].
 ![[Camping_Night.gif]]
 Some banter later, the party is passed by Raul, who announces he's headed east, and needs a port city, one like Madina Porro. During the conversation, he also points out that Graphel's book is glowing, and upon touching it, Graphel becomes witness to a messy future that awaits Asphodia. Him and his party members dying as some deities tower over them, and he hears a few names, only one of which he could make out - Duke Daedalus.

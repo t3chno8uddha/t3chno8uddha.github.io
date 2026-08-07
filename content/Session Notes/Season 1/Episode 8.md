@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 Party wakes up in the tavern after wrapping up their giant fire monster. They need to pack up and leave, which is why they need to manage resources and decide on their next stop. 
 
 Rubimel is a swamp town with witches and healers and voodoo folk. All the residents are half-dead, kept alive by each other's necromancy and spirit magic. Hints to Dizang and a plotline about how Mansfielders keep invading with torches and pitchforks. 

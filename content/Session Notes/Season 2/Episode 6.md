@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 The players are exploring Magnolia, when someone runs into the district yelling and enlisting help on the academy's behalf. The players will be forewarned to volunteer the help for this specific session.
 
 [[Brejur Academy]]

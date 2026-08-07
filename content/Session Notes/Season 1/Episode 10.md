@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 The first sign of danger is one obvious to you even without sight - despite standing on the edges of the Papillopolitan forest, the petrichor and the light breeze of the swamp were instead replaced by the smell of cinder, the clicking of fire, and distant cries of townsfolk, still audible from hundreds of kilometres away as a desperate echo. The swamp town of Rubimel is devoid of any life now, spare for golden flames that burn leftover houses into a crisp. Bare foot prints run around the soil and the dirt, and hoof prints chasing them. Sprinkled alongside them is blood, leftover arrows and torches, left to still burn. You hear a slow, rumbling explosion far, far away, and what follows it is a hum, a whistle almost, coming from above. Looking there, you see a grey meteor flying around your immediate area and crashing into one of the trees.
 After the players try to extinguish the golden flame, and retrieve Maxill, someone notices that Raul's leg is back. But first, focus on the characters and their interactions and revelations. Then, Raul would explain that enchantments and execrations both function in a similar, rule-based manner. Violating the rules of either can result in various effects. Since, in this case, the execration was violated by him gaining back a bit of his memory, the leg returned as judged by the execration.
 

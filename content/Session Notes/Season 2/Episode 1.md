@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 ### **Setting & Initial Situation**
 
 - The characters awaken floating in the vast, open ocean with no memory of how they got there.

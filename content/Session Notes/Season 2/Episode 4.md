@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
  [[Castle Kingdom Magnolia]]
 The cast wakes up in a random bordello that they have no memory of visiting. Next to them is a muscular dead man with two rings that they remember.
 

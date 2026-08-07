@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 *(Archival prep — god names and afterlives below predate the canon in [[Cosmology]]; where they differ, Cosmology rules.)*
 
 >You remember walking deeper in. Your party were right there with you one moment, and gone once out of sight. All alone, the mist only shows you one path ahead.

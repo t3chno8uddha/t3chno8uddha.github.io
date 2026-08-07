@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 "Your memories don't serve you well, instead waking up uncertain of how you got there. Your clothes filled with saltwater, they weigh you down, making it harder still to stand up. The sun showers you in its warmth, beckoning you to continue your pilgrimage, not that you recall where it might lead you. You have only your  dragon-bone wand on you, as well as some coin, and a debilitating hunger. What do you do?"
 ![[Amethist_Coast_Shore.png]]
 "Kicked out from yet another town, your travels have brought you farther from your home than ever. There are some prestigious towns above you, that much you know. The south you had sailed from doesn't have much to offer you anymore. You've made a friend, arguably even two, but not even they would proudly announce associating with the likes of you. You're not short on cash, yet, but your luck can't last for that much longer now. What do you do?"

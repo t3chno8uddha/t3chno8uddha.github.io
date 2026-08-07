@@ -1,3 +1,7 @@
+---
+unlisted: true
+---
+
 In the Heathen Homestead, [[Ettrick]] recruited five willing souls - Juanush, Sani, [[Caliburn]], Marine and [[Via]], The adventurers took over a Caracolian trading ship and set sail toward Mansfield. Their job was to deliver two crates of dead, ringed soldiers to Mansfield. On their way the crew was ambushed by Vampyr pirates, that were tasked with intercepting the cargo. They fought them, and delivered the shipment to *Mansfield*, having it received by Mansfield's Minister of Treasury, [[Tizian]].
 
 Behind the scenes:

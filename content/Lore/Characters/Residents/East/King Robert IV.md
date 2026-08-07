@@ -8,7 +8,6 @@ Allegiance:
   - "[[Wonderlay]]"
 Opposition:
 Family:
-  - "[[Francis]]"
 Status: Dead
 First_Seen: 1413
 Tags:

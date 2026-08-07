@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gameplay/Wilt Core/5. FLesh, Soul and Damage.md",
+                "file": "Gameplay/Wilt Core/10. Character Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. FLesh, Soul and Damage"
+              "title": "10. Character Creation"
             }
           }
         ]
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gameplay/Wilt Core.md",
+                "file": "Gameplay/Wilt Core/Wilt Core.md",
                 "mode": "source",
                 "source": false
               },
@@ -208,14 +208,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "6d62f6332de338d3",
+  "active": "c4c245c2f6f41f2c",
   "lastOpenFiles": [
+    "Gameplay/Wilt Core/Wilt Core.md",
+    "Gameplay/Wilt Core/10. Character Creation.md",
+    "Gameplay/Wilt Core/9. Quests.md",
+    "Gameplay/Wilt Core/8. Spells, Scrolls and Attunement.md",
+    "Gameplay/Wilt Core/7. Archetypes, Heritages and Abilities.md",
+    "Gameplay/Wilt Core/1. Rolling the Dice.md",
+    "Gameplay/Wilt Core/6. Sequences and Group Actions.md",
     "Gameplay/Wilt Core/5. FLesh, Soul and Damage.md",
     "Gameplay/Wilt Core/4. Stopwatches.md",
-    "Gameplay/Wilt Core.md",
     "Gameplay/Wilt Core/3. Acts.md",
     "Gameplay/Wilt Core/2. Peril & Payoff.md",
-    "Gameplay/Wilt Core/1. Rolling the Dice.md",
     "Gameplay/Asphodia/Classes/Wurdulac.md",
     "Gameplay/Wilt Core",
     "Gameplay/Asphodia/Classes/Changeling.md",
@@ -250,11 +255,6 @@
     "Lore/Locales/The Western Petal/The Great Lands/Manzel Family Docks.md",
     "Lore/Locales/The Western Petal/The Great Lands/Mansfield.md",
     "Lore/Locales/The Western Petal/The Great Lands/Galatea.md",
-    "Lore/Locales/The Western Petal/The Great Lands/Ga'Al-Tey Monastery.md",
-    "Lore/Locales/The Western Petal/The Great Lands/Eethert Plains.md",
-    "Lore/Locales/The Western Petal/The Great Lands/Claypool Bay.md",
-    "Lore/Locales/The Western Petal/The Great Lands/Asbarnia.md",
-    "Lore/Locales/The Western Petal/The Godless Jungle/Madina Porro.md",
-    "Lore/Locales/The Western Petal/The Godless Jungle/Komadd.md"
+    "Lore/Locales/The Western Petal/The Great Lands/Ga'Al-Tey Monastery.md"
   ]
 }

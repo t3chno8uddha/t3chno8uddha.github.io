@@ -14,3 +14,4 @@ quartz/cli/tui/dist/
 *.tar.gz
 content/Media/Music/
 content/Media/Unused/
+/content/

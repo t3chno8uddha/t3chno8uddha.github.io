@@ -28,7 +28,7 @@ Abara threw the war, only claiming two small islands; and Temeran lost the war e
 
 There is another god, a human called Mateo, one of the most prolific ancient hunters, left his home in Adamail. He traveled the world, in pursuit of finding himself and discovering all it had to offer, and became the first Oracle - Mateo, the Ardent.
 
-Once something dies, it is turned into an Idolon - a soul, in other words - and different gods have different afterlives, some which they share. If it was either meant to be, or the god allows the Idolon entry, and the Idolon is free to do however it wishes. Sometimes, the sibling gods do trial, to decide which of them has the right to the Idolon.
+Once something dies, it is returned to its primordial form as an Idolon - a soul, in other words - and different gods have different afterlives, some which they share. If it was either meant to be, or the god allows the Idolon entry, and the Idolon is free to do however it wishes. Sometimes, the sibling gods do trial, to decide which of them has the right to the Idolon.
 
 |                       **God** |   Name   | Afterlife                                                                                    |
 | ----------------------------: | :------: | -------------------------------------------------------------------------------------------- |

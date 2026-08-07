@@ -1,0 +1,13 @@
+filters:
+  and:
+    - file.hasProperty("marker")
+views:
+  - type: leaflet-map
+    name: Asphodia Map
+    image: Media/map.png
+    unit: meters
+    scale: "1"
+    minZoom: -3
+    maxZoom: 10
+    defaultZoom: -30
+    height: 800

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lore/Cosmology.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cosmology"
+              "title": "index"
             }
           }
         ]
@@ -190,8 +190,9 @@
   },
   "active": "4d6158ef081c99fa",
   "lastOpenFiles": [
-    "index.md",
     "map.base",
+    "Lore/Cosmology.md",
+    "index.md",
     "Review.md",
     "TODO.md",
     "Media/Unused/gelatinous_terror_by_tituslunter_d8h65k3-pre.jpg",
@@ -233,8 +234,6 @@
     "Lore/Locales/The Western Petal/Imperviable Stronghold/Weeping Willow.md",
     "Lore/Locales/The Western Petal/Imperviable Stronghold/Glitter Gulch.md",
     "Lore/Locales/The Western Petal/Imperviable Stronghold/Adamail.md",
-    "Lore/Locales/The Northern Petal/The Dunacce Stretch/Freeflight Mountain Range.md",
-    "Lore/Locales/The Northern Petal/The Dunacce Stretch/Dunacces.md",
-    "Lore/Locales/The Northern Petal/The Dunacce Stretch/Brejur Academy.md"
+    "Lore/Locales/The Northern Petal/The Dunacce Stretch/Freeflight Mountain Range.md"
   ]
 }

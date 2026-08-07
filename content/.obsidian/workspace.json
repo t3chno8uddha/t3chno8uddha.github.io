@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "f0b294f2304b571c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b78bc48c01f177b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d6158ef081c99fa",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "map.base",
+                "viewName": "Asphodia Map"
+              },
+              "icon": "lucide-map",
+              "title": "map"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1241daffa260a9fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8d39d6be6ac7122",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4c245c2f6f41f2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8c6ff55691efc3de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "22a437a7c124cea4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e60405496b84e41b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e8151a232e45f04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70b0daa79ac94ce9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Players/Bulga.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3eb0b9ff7cc2fab3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Players/Bulga.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2327b358cb250ccd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "05005efc292add1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "24775b36405a7d06",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Players/Bulga.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4d6158ef081c99fa",
+  "lastOpenFiles": [
+    "index.md",
+    "map.base",
+    "Review.md",
+    "Media/map.png",
+    "Media/Unused/gelatinous_terror_by_tituslunter_d8h65k3-pre.jpg",
+    "Media/Unused/Bridge 3.png",
+    "Media/Unused/nikita-shushman-forest.jpg",
+    "Media/Unused/Witcher Hut.jpg",
+    "Media/Unused/alexander-forssberg-observatory1.jpg",
+    "Media/Unused/Town Shot.jpg",
+    "Media/Unused/li-moly-new-c2.jpg",
+    "Media/Unused/Ball.jpeg",
+    "Media/Unused/Tavern.jpeg",
+    "Media/Unused",
+    "Media/OLD/Character Sheet_OLD.pdf",
+    "Media/OLD",
+    "Media/Images/tokens",
+    "Media/Images/pantheon/deities",
+    "Media/Images/pantheon/gods",
+    "Media/Images/pantheon",
+    "Media/Images/players/familiars",
+    "Media/Images/players/shelved/alastor",
+    "Lore/The Timeline.md",
+    "Lore/Cosmology.md",
+    "Lore/Politics/Magnolian Factions.md",
+    "Lore/Phenomena/Vessel Rings.md",
+    "Lore/Phenomena/The Archlibrary.md",
+    "Lore/Phenomena/Leemward's Caravan.md",
+    "Lore/Phenomena/Godspeak.md",
+    "Lore/Phenomena/Exanimation.md",
+    "Lore/Phenomena/Edicts.md",
+    "Lore/Phenomena/Drakenblight.md",
+    "Lore/Phenomena/Cronika's Shrines.md",
+    "Lore/Phenomena/Chronokinesis.md",
+    "Lore/Phenomena/Abyss Mastery.md",
+    "Lore/Locales/Phantom Saltwaters.md",
+    "Lore/Locales/The Southern Petal/Sempiternal Observatory.md",
+    "Lore/Locales/The Southern Petal/Kronitia.md",
+    "Lore/Locales/The Northern Petal/Karacol Province/Maganuhl Archive.md",
+    "Lore/Locales/The Northern Petal/Karacol Province/Karacolia.md",
+    "Lore/Locales/The Northern Petal/Karacol Province/Crucito's Gallery.md",
+    "Lore/Characters/Residents/West/Tizian.md",
+    "Lore/Characters/Residents/West/Theo.md",
+    "Lore/Characters/Residents/West/Sage Morrigan.md",
+    "Lore/Characters/Residents/West/Princess Melodia.md",
+    "Lore/Characters/Residents/West/Leemward.md"
+  ]
+}

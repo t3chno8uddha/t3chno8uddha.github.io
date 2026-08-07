@@ -159,7 +159,6 @@ Each of the thirteen classes holds abilities. Abilities are not tied to your arc
 - **Passive** - *always in effect once owned.*
 - **Active** - *triggered with a roll when you choose to use them.*
 - **Strenuous** - *Active, with a price: using them costs you strain, forcing you to resist.*
-Abilities have pre-determined traits they require, with the player rolling one of its acts, and the resistance, accordingly.
 
 Characters also have heritage, which determines their general appearance, grants them some kind of passive race-specific property, and two acts that will be their strengths. 
 ### Unlocking abilities:

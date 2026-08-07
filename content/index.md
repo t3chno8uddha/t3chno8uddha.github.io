@@ -5,7 +5,7 @@ title: Asphodia
 ![[asphodel_field2.png]]
 **Asphodia** is a tabletop RPG set in its eponymous world. It is a module of the Wilt RPG system, a *Forged in the Dark* resolution engine.
 
-If you're here for the first time, acquaint yourself with the [[Wilt Core Rulebook]] and ASphodia's [[Archetypes]], [[Heritages]], [[Classes]], [[Elements]] and [[Statuses]].
+If you're here for the first time, acquaint yourself with the [[Wilt Core]] and ASphodia's [[Archetypes]], [[Heritages]], [[Classes]], [[Elements]] and [[Statuses]].
 
 You may also want to read about the world's [[Cosmology]].
 

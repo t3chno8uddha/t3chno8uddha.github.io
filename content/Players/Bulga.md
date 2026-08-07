@@ -13,5 +13,5 @@ Status: Alive
 First_Seen: 1441
 Tags:
 ---
-A Lazi Warrior woman, who searches for her Aél husband of forbidden love. She has their child with her.
+A [[Lazi]] woman, who searches for her [[Aél]] husband of forbidden love. She has their child with her.
 ![[bulga.png]]

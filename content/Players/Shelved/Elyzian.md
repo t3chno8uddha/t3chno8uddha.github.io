@@ -12,5 +12,7 @@ Status: Dead
 First_Seen: 1413
 Tags:
 ---
-A courtesan, who was rescued from her suicide attempt in 1413, by her client and admirer, [[Duke Daedalus]]. She dedicated herself to taking his life before she takes her own again.
+A courtesan, who was rescued from her suicide attempt in 1413, by her client and admirer, [[Duke Daedalus]].
+
+She dedicated herself to taking his life before she takes her own again.
 ![[Elyzian.png]]

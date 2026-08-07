@@ -17,8 +17,11 @@ First_Seen: 1413
 Tags:
   - Godblood
 ---
-A Gail Warrior and Galatean outlaw, looking for the author of his books, Abati Faria. 
-In 1413, he was sentenced to death for courting the queen, before he broke out and saved the Kingdom, granting him a pardon and an exile, instead. Friends with princess Melodia.
+An outlaw from [[Galatea]], looking for the author of his books, [[Abati Faria]].
+
+In 1413, he was sentenced to death for courting the queen, before he broke out and saved the Kingdom, granting him a pardon and an exile, instead. 
+
+Friends with [[princess Melodia]].
 
 Happens to be [[Cronika]]'s godblood.
 

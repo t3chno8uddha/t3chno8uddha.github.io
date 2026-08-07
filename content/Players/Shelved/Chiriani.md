@@ -12,5 +12,6 @@ Status: Alive
 First_Seen: 1413
 Tags:
 ---
-A Mansfield orphan who briefly joined the party in 1413.
+A [[Mansfield]] orphan who briefly joined the party in 1413.
+
 ![[Chirian.png]]

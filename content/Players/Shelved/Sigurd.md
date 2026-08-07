@@ -14,7 +14,9 @@ Status: Dead
 First_Seen: 1413
 Tags:
 ---
-Adamalian Hunter, who slayed Emperor Maxill Mandable in 1403.
+Hunter from [[Adamail]], who slayed Emperor [[Maxill]] Mandable in 1403.
+
 He was mutilated by an Abyssal beast, and was forced to wear armor to conceal his wounds. 
-In 1413, he helped save Galatea, and died by the hand of the Archdragon Galatus later that same year.
+
+In 1413, he helped save [[Galatea]], and died by the hand of the Archdragon [[Galatus]] later that same year.
 ![[Sigurd.png]]

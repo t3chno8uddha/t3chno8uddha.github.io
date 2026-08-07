@@ -12,5 +12,5 @@ Status: Alive
 First_Seen: 1413
 Tags:
 ---
-A Dhidal plague doctor, exiled from his family in 1413 for being a failure. Has very little control of his Abyssal form.
+A plague doctor from [[Dhidalah]], exiled from his family in 1413 for being a failure. Has very little control of his Abyssal form.
 ![[epidemus.png]]

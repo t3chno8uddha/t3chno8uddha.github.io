@@ -11,5 +11,5 @@ Status: Alive
 First_Seen: 1413
 Tags:
 ---
-A Lunatic with the Deity [[Amon]] trapped inside him, and (as of 1413, former) prisoner of Infernait.
+A [[Lunatic]] with the Deity [[Amon]] trapped inside him, and (as of 1413, former) prisoner of [[Infernait]].
 ![[Morgan.png]]

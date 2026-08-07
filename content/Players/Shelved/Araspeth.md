@@ -12,5 +12,5 @@ Status: Dead
 First_Seen: 1413
 Tags:
 ---
-A Kronitian magician that mysteriously washed ashore Claypool in 1413, with no memory of how she got there.
+A magician that mysteriously washed ashore [[Claypool Bay]] in 1413, with no memory of how she got there.
 ![[Araspeth.png]]

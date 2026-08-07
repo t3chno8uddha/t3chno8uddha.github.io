@@ -1,7 +1,6 @@
 ---
 unlisted: true
 ---
-
 # Timeline
 ### Dawn of the 9th century
 - Fernando Brejur builds [[Brejur Academy]], bent thereafter by Magna and Crucito's whims.

@@ -15,7 +15,8 @@ Status: Alive
 First_Seen: 1413
 Tags:
 ---
-Princess of Galatea, sister of prince Hemos, and a friend of Graphel.
+Princess of Galatea, sister of prince [[Hemos]], and a friend 
+of [[Graphel]]'s.
 
 >[!spoilers]
 >As of 1441, brainwashed by [[Rafael]].

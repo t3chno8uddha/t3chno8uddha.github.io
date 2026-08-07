@@ -12,5 +12,5 @@ Status: Alive
 First_Seen: 1441
 Tags:
 ---
-A Wonderlan Hunter, Fae Survivor. Was exiled from his order after he sealed the powerful Abyssal known as King Megido in his flesh.
+A hunter from [[Wonderlay]]. Was exiled from his order after he sealed the powerful Abyssal known as King [[Megido]] in his flesh.
 ![[Brant.png]]

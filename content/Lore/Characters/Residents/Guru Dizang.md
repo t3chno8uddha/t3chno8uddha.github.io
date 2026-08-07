@@ -11,7 +11,7 @@ Opposition:
 Family:
 Status: Vague
 First_Seen: 1413
-Tags:
+tags:
 ---
 A guru residing in Rubimel, able to guide visitors from the swamp town into Papillopolis - The First Forest.
 

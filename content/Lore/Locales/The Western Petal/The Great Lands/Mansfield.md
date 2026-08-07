@@ -12,7 +12,7 @@ Populace:
   - Gail
 Status: Standing
 First_Seen: 1413
-Tags:
+tags:
   - Port
 marker:
   - coordinates: 2520, 2601

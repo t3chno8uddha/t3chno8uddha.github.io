@@ -13,7 +13,7 @@ Family:
   - "[[Ga'alo]]"
 Status: Dead
 First_Seen:
-Tags:
+tags:
   - Gods
 ---
 Goddess of **discipline** and **time**.

@@ -10,7 +10,7 @@ Populace:
   - Fae
 Status: Standing
 First_Seen:
-Tags:
+tags:
   - Island
 marker: [{ coordinates: "3894, 3699", colour: "#685f58" }]
 ---

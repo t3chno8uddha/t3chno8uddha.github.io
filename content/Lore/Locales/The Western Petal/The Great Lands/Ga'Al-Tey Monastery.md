@@ -10,7 +10,7 @@ Populace:
   - Aél
 Status: Standing
 First_Seen: 1413
-Tags:
+tags:
 marker:
   - coordinates: 1659, 2772
     colour: "#645e68"

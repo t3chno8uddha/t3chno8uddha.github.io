@@ -12,7 +12,7 @@ Populace:
   - Lazi
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker: [{ coordinates: "1563, 1416", colour: "#4f443a" }]
 ---
 One of Adamaal's two kingdoms. A massive fortress, and home to [[Sigurd]].

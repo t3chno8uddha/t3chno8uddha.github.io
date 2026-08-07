@@ -10,7 +10,7 @@ Populace:
   - Exanimate
 Status: Standing
 First_Seen: 1441
-Tags:
+tags:
 marker: [{ coordinates: "4695, 2616", colour: "#52515a" }]
 ---
 A place where all are welcome to learn the ways of magic, built and bent by Magna and Crucito's whims. Built by Fernando Brejur at the dawn of the 9th century.

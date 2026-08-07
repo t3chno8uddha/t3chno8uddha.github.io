@@ -12,7 +12,7 @@ Family:
   - "[[Draca]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Dragon
   - Empyrean
 ---

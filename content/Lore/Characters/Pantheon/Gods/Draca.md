@@ -13,7 +13,7 @@ Family:
   - "[[Duke Daedalus]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Gods
 ---
 Goddess of **motherhood**, **destruction** and the patron god of **Dragons**.

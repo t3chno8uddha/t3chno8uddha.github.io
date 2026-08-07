@@ -11,7 +11,7 @@ Populace:
   - Vampyr
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker: [{ coordinates: "3285, 4209", colour: "#473e45" }]
 ---
 One of two mountain ranges Draca won in the God War; she gave Dhidalah to [[Duke Daedalus]] as home.

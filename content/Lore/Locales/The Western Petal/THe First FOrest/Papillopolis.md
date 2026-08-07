@@ -10,7 +10,7 @@ Populace:
   - God
 Status: Destroyed
 First_Seen: 1413
-Tags:
+tags:
   - Forest
 marker: [{ coordinates: "2865, 1764", colour: "#52514d" }]
 ---

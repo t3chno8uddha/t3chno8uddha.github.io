@@ -8,7 +8,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Abyssal
 ---
 An Abyssal deity, thought to have previously belonged to some orator.

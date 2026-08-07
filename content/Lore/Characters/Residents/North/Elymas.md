@@ -9,7 +9,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen: 1441
-Tags:
+tags:
 ---
 A champion prepared for the Idolon Arena of Castle Kingdom Magnolia.
 

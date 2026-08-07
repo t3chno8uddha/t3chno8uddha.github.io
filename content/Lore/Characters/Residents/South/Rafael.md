@@ -17,7 +17,7 @@ Family:
   - "[[Diya]]"
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
   - Godblood
   - Chronopath
 ---

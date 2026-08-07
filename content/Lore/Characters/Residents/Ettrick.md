@@ -11,7 +11,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen:
-Tags:
+tags:
 ---
 A travelling merchant.
 

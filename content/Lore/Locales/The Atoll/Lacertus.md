@@ -9,7 +9,7 @@ Populace:
   - Lazi
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "4908, 540", colour: "#44362f" }]
 ---
 ![[Capital_Lacertus.png]]

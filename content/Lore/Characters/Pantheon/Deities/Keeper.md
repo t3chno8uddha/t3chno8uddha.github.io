@@ -10,7 +10,7 @@ Family:
   - "[[Herald Morticia]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Empyrean
 ---
 [[The Claimant]]'s Empyrean.

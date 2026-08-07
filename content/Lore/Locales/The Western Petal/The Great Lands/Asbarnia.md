@@ -10,7 +10,7 @@ Populace:
   - Undine
 Status: Destroyed
 First_Seen: 1413
-Tags:
+tags:
 marker:
   - coordinates: 2259, 2445
     colour: "#564441"

@@ -10,7 +10,7 @@ Family:
   - "[[Diya]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Godblood
 ---
 A writer - the author of [[Graphel]]'s childhood books, and the teacher of [[Ekthes]], who searches for him.

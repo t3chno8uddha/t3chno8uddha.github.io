@@ -8,7 +8,7 @@ Populace:
   - Lazi
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "2646, 3366", colour: "#4c4447" }]
 ---
 The largest kingdom in the Heathen Homestead, a place that bows to no god.

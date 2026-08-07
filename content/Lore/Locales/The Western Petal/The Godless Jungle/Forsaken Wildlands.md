@@ -9,7 +9,7 @@ Populace:
   - Fiend
 Status: Standing
 First_Seen:
-Tags:
+tags:
   - Forest
 marker: [{ coordinates: "2415, 1128", colour: "#514e4b" }]
 ---

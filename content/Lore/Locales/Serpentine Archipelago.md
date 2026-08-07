@@ -9,7 +9,7 @@ Populace:
   - Fiend
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker:
   - coordinates: 525, 585
     colour: "#383837"

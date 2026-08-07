@@ -11,7 +11,7 @@ Family:
   - "[[Infernal Arbiter]]"
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
   - Gods
 ---
 God of **craftsmanship**, **solitude** and the patron god of **[[Aél]]**.

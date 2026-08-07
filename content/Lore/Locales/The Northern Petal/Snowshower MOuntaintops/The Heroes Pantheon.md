@@ -7,6 +7,6 @@ Opposition:
 Populace:
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "4952, 3405", colour: "#585c50" }]
 ---

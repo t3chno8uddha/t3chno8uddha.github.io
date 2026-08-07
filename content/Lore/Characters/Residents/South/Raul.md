@@ -13,7 +13,7 @@ Family:
   - "[[Diya]]"
 Status: Vague
 First_Seen: 1413
-Tags:
+tags:
   - Godblood
   - Chronopath
   - Edicts

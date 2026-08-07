@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gameplay/Wilt/9. Quests.md",
+                "file": "Lore/Locales/Infernait.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Quests"
+              "title": "Infernait"
             }
           }
         ]
@@ -190,15 +190,31 @@
   },
   "active": "4d6158ef081c99fa",
   "lastOpenFiles": [
-    "Gameplay/Wilt/10. Character Creation.md",
-    "Gameplay/Wilt/8. Spells, Scrolls and Attunement.md",
-    "Gameplay/Wilt/7. Archetypes, Heritages and Abilities.md",
+    "Lore/Lore.tar.gz",
+    "Lore/TTZkH8RuHSHVFwxm.Lore.tar.gz",
+    "Lore/Locales/Phantom Saltwaters.md",
+    "Lore/Locales/Infernait.md",
+    "Character Sheet.pdf",
+    "Gameplay/Asphodia/Elements.md",
     "Gameplay/Wilt/6. Sequences and Group Actions.md",
-    "Gameplay/Wilt/5. FLesh, Soul and Damage.md",
-    "Gameplay/Wilt/4. Stopwatches.md",
-    "Gameplay/Wilt/3. Acts.md",
-    "Gameplay/Wilt/2. Peril & Payoff.md",
+    "Gameplay/Wilt.md",
+    "Lore/Locales/Loca Loha.md",
+    "Lore/DskXed0TlkVwDofh.Lore.tar.gz",
+    "Lore/Phenomena/Edicts.md",
+    "Lore/Phenomena/Cronika's Shrines.md",
+    "Lore/Phenomena/Chronokinesis.md",
+    "Lore/Phenomena/Drakenblight.md",
+    "Lore/Phenomena/Exanimation.md",
+    "Review.md",
     "Gameplay/Wilt/1. Rolling the Dice.md",
+    "Gameplay/Wilt/2. Peril & Payoff.md",
+    "Gameplay/Wilt/3. Acts.md",
+    "Gameplay/Wilt/4. Stopwatches.md",
+    "Gameplay/Wilt/5. FLesh, Soul and Damage.md",
+    "Gameplay/Wilt/7. Archetypes, Heritages and Abilities.md",
+    "Gameplay/Wilt/8. Spells, Scrolls and Attunement.md",
+    "Gameplay/Wilt/9. Quests.md",
+    "Gameplay/Wilt/10. Character Creation.md",
     "index.md",
     "Media/Unused/gelatinous_terror_by_tituslunter_d8h65k3-pre.jpg",
     "Media/Unused/Bridge 3.png",
@@ -217,24 +233,8 @@
     "Media/Images/pantheon/deities",
     "Media/Images/pantheon/gods",
     "Media/Images/pantheon",
-    "Media/Images/players/familiars",
-    "Media/Images/players/shelved/alastor",
-    "Media/Images/players/shelved",
     "Lore/The Timeline.md",
     "Lore/Cosmology.md",
-    "Lore/Politics/Magnolian Factions.md",
-    "Lore/Characters/Pantheon/Deities/Keeper.md",
-    "Lore/Characters/Pantheon/Deities/Joy.md",
-    "Lore/Characters/Pantheon/Deities/Herald Morticia.md",
-    "Lore/Characters/Pantheon/Deities/The Claimant.md",
-    "Lore/Characters/Pantheon/Deities/Ga'alo.md",
-    "Lore/Phenomena/Vessel Rings.md",
-    "Lore/Phenomena/The Archlibrary.md",
-    "Lore/Phenomena/Leemward's Caravan.md",
-    "Lore/Phenomena/Godspeak.md",
-    "Lore/Phenomena/Exanimation.md",
-    "Lore/Phenomena/Edicts.md",
-    "Lore/Phenomena/Drakenblight.md",
-    "Lore/Phenomena/Cronika's Shrines.md"
+    "Lore/Politics/Magnolian Factions.md"
   ]
 }

@@ -9,7 +9,7 @@ Populace:
   - Gail
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker: [{ coordinates: "2178, 4500", colour: "#615661" }]
 ---
 A stronghold city at the northern summit of Drakengard.

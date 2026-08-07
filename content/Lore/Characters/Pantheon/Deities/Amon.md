@@ -9,7 +9,7 @@ Opposition:
 Family:
 Status: Sealed
 First_Seen: 1413
-Tags:
+tags:
   - Abyssal
   - Magic
 ---

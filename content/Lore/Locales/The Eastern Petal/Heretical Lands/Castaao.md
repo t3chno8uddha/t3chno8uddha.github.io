@@ -7,7 +7,7 @@ Opposition:
 Populace:
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "2553, 4611", colour: "#76726e" }]
 ---
 ![[Castaao.png]]

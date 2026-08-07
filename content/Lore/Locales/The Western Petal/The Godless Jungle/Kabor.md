@@ -11,7 +11,7 @@ Populace:
   - Exanimate
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker: [{ coordinates: "2322, 813", colour: "#515546" }]
 ---
 An ancient temple, obscured by a jungle, located on the south of the Forsaken Wildlands.

@@ -10,7 +10,7 @@ Opposition:
 Family:
 Status: Sealed
 First_Seen: 1441
-Tags:
+tags:
   - Abyssal
 ---
 An Occult being, often hailed as the King of Torment, who once raised an army that almost leveled Lanaganne to the ground.

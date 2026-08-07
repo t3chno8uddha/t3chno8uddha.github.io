@@ -15,7 +15,7 @@ Populace:
   - Vampyr
 Status: Standing
 First_Seen: 1441
-Tags:
+tags:
 marker: [{ coordinates: "4089, 2723", colour: "#654c58" }]
 ---
 The only realm in Asphodia directly presided over by a god and not a government entity. Magnolia is hailed as the grand capital of magic in Asphodia. It has no single definitive law enforcement. Instead, Magna likes to simply observe the humans living in her kingdom. The Kingdom is built atop an enormous castle-like structure. 

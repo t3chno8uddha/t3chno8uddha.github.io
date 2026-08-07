@@ -10,7 +10,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen: 1441
-Tags:
+tags:
 ---
 The minister of Treasury of Mansfield.
 

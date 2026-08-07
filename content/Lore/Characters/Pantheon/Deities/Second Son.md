@@ -11,7 +11,7 @@ Family:
   - "[[Duke Daedalus]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Abyssal
   - Vampyr
   - Wurdulac

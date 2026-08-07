@@ -11,6 +11,6 @@ Family:
   - "[[Abara]]"
 Status: Dead
 First_Seen:
-Tags:
+tags:
 ---
 The first son of Galatus and Abara.

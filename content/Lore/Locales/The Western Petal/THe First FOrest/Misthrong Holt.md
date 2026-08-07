@@ -9,7 +9,7 @@ Populace:
   - Biota
 Status: Standing
 First_Seen:
-Tags:
+tags:
   - Forest
 marker:
   - coordinates: 2985, 2103

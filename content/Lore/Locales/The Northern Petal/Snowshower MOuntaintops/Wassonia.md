@@ -10,7 +10,7 @@ Populace:
   - Vampyr
 Status: Standing
 First_Seen: 1441
-Tags:
+tags:
 marker: [{ coordinates: "5030, 2450", colour: "#54504d" }]
 ---
 A small settlement south of Ehelden, with a large monastery and a mixed population of Aél. 

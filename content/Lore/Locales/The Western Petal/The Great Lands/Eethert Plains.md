@@ -10,7 +10,7 @@ Populace:
   - Vampyr
 Status: Standing
 First_Seen: 1413
-Tags:
+tags:
 marker:
   - coordinates: 1755, 2559
     colour: "#45414a"

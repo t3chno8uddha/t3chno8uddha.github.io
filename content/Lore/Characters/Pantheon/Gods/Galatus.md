@@ -12,7 +12,7 @@ Family:
   - "[[Ga'alo]]"
 Status: Sealed
 First_Seen: 1413
-Tags:
+tags:
   - Gods
 ---
 God of **camaraderie**, **hope**, and the patron god of **[[Gail]]**.

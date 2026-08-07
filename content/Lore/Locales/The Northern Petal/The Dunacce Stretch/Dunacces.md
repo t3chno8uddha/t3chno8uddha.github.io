@@ -7,7 +7,7 @@ Opposition:
 Populace:
 Status: Standing
 First_Seen: 1441
-Tags:
+tags:
 marker: [{ coordinates: "4554, 2319", colour: "#685f51" }]
 ---
 ![[Dunacces.png]]

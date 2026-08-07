@@ -11,7 +11,7 @@ Family:
   - "[[Joy]]"
 Status: Sealed
 First_Seen: 1413
-Tags:
+tags:
   - Gods
 ---
 Tree god of **flora** and **fauna**.

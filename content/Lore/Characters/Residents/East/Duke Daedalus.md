@@ -18,7 +18,7 @@ Family:
   - "[[Second Son]]"
 Status: Alive
 First_Seen: 1441
-Tags:
+tags:
   - Godblood
 ---
 Son of Draca and Temeran, the ruler of The Duchy of Dhidalah, the first Vampyr, and the father of all Vampyr.

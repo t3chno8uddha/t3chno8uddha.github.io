@@ -9,7 +9,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Gods
 ---
 God of **discovery** and **redemption**.

@@ -12,7 +12,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
 ---
 A prisoner of [[Infernait]]'s solitary confinement. 
 

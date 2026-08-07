@@ -10,7 +10,7 @@ Opposition:
 Family:
 Status: Dead
 First_Seen: 1413
-Tags:
+tags:
 ---
 Mayor of Eethert Plains, murdered by [[Father Ludwig]] during a divination ritual in 1413.
 ![[Alfonso_Eethert.png]]

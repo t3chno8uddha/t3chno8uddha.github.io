@@ -9,7 +9,7 @@ Populace:
   - Biota
 Status: Standing
 First_Seen: 1413
-Tags:
+tags:
 marker:
   - coordinates: 1432, 2175
     colour: "#49475e"

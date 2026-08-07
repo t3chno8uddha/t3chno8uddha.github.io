@@ -10,7 +10,7 @@ Family:
   - "[[Asphea]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Gods
 ---
 Goddess of **magic** and **entertainment**.

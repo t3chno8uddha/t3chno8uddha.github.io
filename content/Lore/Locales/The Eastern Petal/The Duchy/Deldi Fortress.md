@@ -11,7 +11,7 @@ Populace:
   - Construct
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker:
   - coordinates: 3666, 4248
     colour: "#474248"

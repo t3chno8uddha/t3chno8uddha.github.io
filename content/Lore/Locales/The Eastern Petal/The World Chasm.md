@@ -9,7 +9,7 @@ Populace:
   - Undine
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "1737, 4368", colour: "#3c3a45" }]
 ---
 Another colossal whirlpool of unknown origins - no one who had ventured in has ever returned.

@@ -7,7 +7,7 @@ Opposition:
 Populace:
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "2877, 4212", colour: "#6a675d" }]
 ---
 ![[Adanasaan.png]]

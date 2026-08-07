@@ -8,7 +8,7 @@ Opposition:
 Populace:
 Status: Standing
 First_Seen: 1413
-Tags:
+tags:
 marker:
   - coordinates: 2778, 2412
     colour: "#554e3f"

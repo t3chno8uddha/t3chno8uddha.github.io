@@ -10,7 +10,7 @@ Populace:
   - Aél
 Status: Undone
 First_Seen:
-Tags:
+tags:
   - Island
   - Port
 marker: [{ coordinates: "1140, 3408", colour: "#6a5753" }]

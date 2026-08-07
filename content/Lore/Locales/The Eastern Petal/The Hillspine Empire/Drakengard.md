@@ -12,7 +12,7 @@ Populace:
   - Biota
 Status: Standing
 First_Seen: 
-Tags:
+tags:
 marker: [{ coordinates: "1653, 4908", colour: "#434241" }]
 ---
 The mountain range where **Draca** built her own home. Worships Draca. Home and a safe sanctuary for all dragons of the realm.

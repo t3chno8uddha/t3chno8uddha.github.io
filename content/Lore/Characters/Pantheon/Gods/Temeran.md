@@ -11,7 +11,7 @@ Family:
   - "[[Duke Daedalus]]"
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Gods
 ---
 God of **blood**, **night**, and the patron god of **[[Vampyr]]**.

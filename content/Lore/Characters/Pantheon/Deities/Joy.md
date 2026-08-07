@@ -11,7 +11,7 @@ Family:
   - "[[Via]]"
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
 ---
 The child of Lutrios, and also its very leaves. Said to be the embodiment of happiness of all living creatures.
 

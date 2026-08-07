@@ -8,7 +8,7 @@ Populace:
   - Lazi
 Status: Standing
 First_Seen:
-Tags:
+tags:
 marker:
   - coordinates: 1905, 5769
     colour: "#5e5450"

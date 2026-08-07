@@ -12,7 +12,7 @@ Family:
   - "[[Draca]]"
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
 ---
 The son of [[Crucito]] and [[Draca]].
 

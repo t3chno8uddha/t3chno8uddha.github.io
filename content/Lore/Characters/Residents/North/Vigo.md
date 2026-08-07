@@ -10,7 +10,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen: 1441
-Tags:
+tags:
   - Abyss_Mastery
 ---
 A child student of Brejur Academy, with no real grasp of his power. Vigo unknowingly Abyssal Mastered the academy's entire population while he played the piano. Threatened, he turned the population into the Manipede, a massive magical human worm.

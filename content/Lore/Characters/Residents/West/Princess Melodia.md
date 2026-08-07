@@ -13,7 +13,7 @@ Family:
   - "[[Hemos]]"
 Status: Alive
 First_Seen: 1413
-Tags:
+tags:
 ---
 Princess of Galatea, sister of prince [[Hemos]], and a friend 
 of [[Graphel]]'s.

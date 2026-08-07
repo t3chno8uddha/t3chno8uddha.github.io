@@ -10,7 +10,7 @@ Populace:
   - Lazi
 Status: Standing
 First_Seen:
-Tags:
+tags:
   - Port
 marker:
   - coordinates: 2118, 1056

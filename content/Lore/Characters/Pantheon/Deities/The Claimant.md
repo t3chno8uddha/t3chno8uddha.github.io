@@ -10,7 +10,7 @@ Family:
   - Matter
 Status: Alive
 First_Seen:
-Tags:
+tags:
 ---
 The Claimant is an eternal being, a child of Matter that comes to free Idolons when their bodies perish.
 ![[The_Claimant.png]]

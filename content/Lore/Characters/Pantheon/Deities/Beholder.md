@@ -9,7 +9,7 @@ Opposition:
 Family:
 Status: Alive
 First_Seen:
-Tags:
+tags:
   - Oracle
 ---
 The avatar of [[Asphea]]'s curiosity, and her eyes and ears over the realm.

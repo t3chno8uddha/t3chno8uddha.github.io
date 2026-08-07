@@ -10,7 +10,7 @@ Populace:
   - Gail
 Status: Standing
 First_Seen:
-Tags:
+tags:
   - Port
 marker: [{ coordinates: "2964, 954", colour: "#4f4537" }]
 ---

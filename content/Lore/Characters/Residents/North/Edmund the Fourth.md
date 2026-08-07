@@ -2,10 +2,10 @@
 Full_Name: Edmund the Fourth
 Type: NPC
 Heritage: "[[Gail]]"
-Birthplace: "[[The Karacol Province]]"
-Location: "[[The Karacol Province]]"
+Birthplace: "[[Karacolia]]"
+Location: "[[Karacolia]]"
 Allegiance:
-  - "[[The Karacol Province]]"
+  - "[[Karacolia]]"
 Opposition:
 Family:
 Status: Alive

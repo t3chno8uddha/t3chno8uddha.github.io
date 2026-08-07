@@ -15,7 +15,7 @@ Tags:
 ---
 God of **war** and **hunting**, and the patron god of **[[Undine]]**.
 
-Governs over **[[Adamail]]**, **[[The Karacol Province]]** and the ocean.
+Governs over **[[Adamail]]**, **[[Karacolia]]** and the ocean.
 
 His most noteworthy relic is the **Lance of Adamail**, a Thundergale lance that strikes true as lightning, which bends oceans to its whim.
 

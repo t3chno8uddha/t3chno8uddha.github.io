@@ -8,7 +8,7 @@ Allegiance:
   - "[[Rafael]]"
   - "[[Dvorakia]]"
 Opposition:
-  - "[[The Karacol Province]]"
+  - "[[Karacolia]]"
   - "[[Sigurd]]"
 Family:
 Status: Exanimate

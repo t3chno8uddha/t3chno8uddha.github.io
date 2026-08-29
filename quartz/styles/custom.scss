@@ -48,42 +48,11 @@
   }
 }
 
-// Fix column widths on the Quests table so the Title column
-// doesn't get squeezed by longer Description text, and align
-// cell content to the top so short cells don't get vertically
-// centered against tall multi-line cells.
-// Order: Title, Description, Runtime, Location, Keys, XP
-.table-container table {
-  table-layout: fixed;
-  width: 100%;
 
-  th,
-  td {
-    vertical-align: top;
-  }
-
-  th:nth-child(1),
-  td:nth-child(1) {
-    width: 16%;
-  }
-  th:nth-child(2),
-  td:nth-child(2) {
-    width: 34%;
-  }
-  th:nth-child(3),
-  td:nth-child(3) {
-    width: 12%;
-  }
-  th:nth-child(4),
-  td:nth-child(4) {
-    width: 16%;
-  }
-  th:nth-child(5),
-  td:nth-child(5) {
-    width: 14%;
-  }
-  th:nth-child(6),
-  td:nth-child(6) {
-    width: 8%;
-  }
+// Let the page use the full screen width instead of capping out
+// at desktop-breakpoint + 300px (see .page in base.scss). Sidebars
+// keep their fixed width (see $sidePanelWidth in variables.scss);
+// the center content column expands to fill the freed-up space.
+.page {
+  max-width: 100%;
 }
